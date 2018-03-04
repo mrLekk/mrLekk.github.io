@@ -18,11 +18,13 @@ a {
 .wrapper {
 	margin-top: 50px;
 	max-width: 960px;
+	padding: 20px;
 }
 
 
 .title {
 	padding:40px 10px 10px 0;
+	width: 100%;
 } 
 
 .title h2 {
@@ -49,14 +51,18 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;	
+	transition-property: transform;
+	transition-timing-function: ease;
+	transition-duration: .5s;
 }
 
 
 .project:hover {
 	transform: scale(1.1);
-	transition-timing-function: ease;
-	transition-duration: .5s;
+
 }
+
+
 
 
 .project p {
@@ -109,3 +115,5 @@ a {
 	color: red;
 	font-size: 20px;
 }
+
+
