@@ -51,6 +51,15 @@ a {
 	align-items: flex-end;	
 }
 
+.project:hover {
+/* 	height: 230px;
+width: 270px; */
+	transform: scale(1.1);
+	transition-timing-function: ease;
+	transition-duration: .5s;
+}
+
+
 .project p {
 	margin-bottom: 40px;
 	color: white;
