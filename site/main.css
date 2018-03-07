@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "Muller","Arial",sans-serif;
+	src:url(fonts/Muller-Light.otf);
+	src:url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+
+body {
+	background-color: #fff;
+	font-family: "Muller","Arial",sans-serif;
+	font-size: 1vmax;
+	line-height: 1.9vmax;
+	color:#d8d8d8;
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	width: 76vw;
+	margin:0 auto;
+	position:relative;
+}
+
+.header {
+	width: 100%;
+	height: 90vh;
+	position: relative;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(img/wall.jpg);
+	padding-top: 7vh;
+	padding-bottom: 8vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+
+}
+
+
+
+/* .logo {
+	width: 15vh;
+}
+
+.call {
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: underline;
+} */
+.bottom-header {
+	height: 10vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+
+}
+
+.bottom-header h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.top-header li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+nav li {
+	list-style:none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.top-header a {
+	color: #fff;
+	text-transform: uppercase;
+}
