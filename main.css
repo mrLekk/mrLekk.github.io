@@ -121,40 +121,36 @@ nav a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom-header {
 	height: 10vh;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
-
+	align-items:center;
+	border: 1px solid #9c9c9c40;
+	border-radius: 4px;
+	
 }
 
 .bottom-header h1 {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: center;
+
 }
 
-
+.contacts {
+	width: 100%;
+	height: 85vh;
+	position: relative;
+	background-color: darkblue;
+	padding-top: 7vh;
+	padding-bottom: 8vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+}
 
 
 
