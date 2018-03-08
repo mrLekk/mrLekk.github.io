@@ -112,7 +112,7 @@ nav a {
 }
 
 .vk {
-	background-color:#597da3;
+	background-color:#366dbf;
 	background-image: url('img/vk.svg');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -136,21 +136,76 @@ nav a {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: center;
+	margin-left: 20px;
 
 }
 
 .contacts {
-	width: 100%;
-	height: 85vh;
+	/* background: url('img/contacts3.jpg'); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	background-blend-mode: overlay;
 	position: relative;
-	background-color: darkblue;
+	width: 100%;
+	height: 100%;
+	position: relative;
 	padding-top: 7vh;
 	padding-bottom: 8vh;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	justify-content: space-between;
+	justify-content: flex-start;
+	padding-top: 10px;
 }
 
+.contacts-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
 
+}
 
+.contacts h2 {
+	text-align: center;
+	color: #6d6d6d;
+	font-weight: 400;
+}
+
+.contacts-style {
+	color: black;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.red-line{
+	border-bottom: 2px solid #e2e2e2;
+
+}
+
+.mail::before {
+	background: url('img/mail.svg') no-repeat;
+	content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.mobile::before {
+	background: url('img/smartphone2.svg') no-repeat;
+	content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+/* .google-form {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+ */
