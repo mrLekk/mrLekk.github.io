@@ -62,7 +62,8 @@ nav a {
 .middle-header {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
+	padding: 20px;
 }
 
 
@@ -161,7 +162,8 @@ nav a {
 
 .contacts-icons {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 
@@ -179,8 +181,8 @@ nav a {
 	line-height: 1.2;
 }
 
-.red-line{
-	border-bottom: 2px solid #e2e2e2;
+.red-line:hover{
+	border-bottom: 2px solid #1459c16b;
 
 }
 
