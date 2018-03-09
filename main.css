@@ -189,11 +189,12 @@ nav a {
 }
 
 .contacts-icons a {
-	text-decoration-color: #1459c16b;
+	text-decoration:none;
 }
 
 .contacts-icons a:hover {
-	text-decoration-color: blue;
+	text-decoration:underline;
+	text-decoration-color: #1459c16b;
 }
 
 
