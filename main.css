@@ -47,6 +47,11 @@ body {
 	text-transform: uppercase;
 }
 
+
+.top-header a:hover {
+	color:#96c0ff;
+}
+
 nav li {
 	list-style:none;
 
@@ -70,7 +75,7 @@ nav a {
 
 
 .project {
-	height: 220px;
+	height: 200px;
 	width: 260px;
 	margin: 1.5em;
 	border-radius: .5em;
@@ -166,8 +171,16 @@ nav a {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-
 }
+
+.contacts-icons a {
+	text-decoration-color: #1459c16b;
+}
+
+.contacts-icons a:hover {
+	text-decoration-color: blue;
+}
+
 
 .contacts h2 {
 	text-align: center;
