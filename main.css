@@ -71,7 +71,9 @@ nav a {
 	padding: 20px;
 }
 
-
+.middle-header a {
+	text-decoration: none;
+}
 
 
 .project {
@@ -93,7 +95,7 @@ nav a {
 
 }
 
-.project a {
+.project p{
 	text-decoration: none;
 	color: #fff;
 }
@@ -126,6 +128,14 @@ nav a {
 	background-size: 50px;
 }
 
+.telegram {
+	background-color:#0088cc;
+	background-image: url('img/telegram-logo.svg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: 50px;
+}
 
 .bottom-header {
 	height: 10vh;
