@@ -81,15 +81,16 @@ nav a {
 .bottom-header h1 {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 4em;
 	text-align: center;
+	margin: 0;
 
 }
 
 .bottom-header p {
 	font-weight: 500;
 	font-size: 2em;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	line-height: 2;
 }
 
