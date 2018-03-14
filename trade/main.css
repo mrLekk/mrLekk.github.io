@@ -94,13 +94,14 @@ nav a {
 
 }
 
-.signals h1 {
+
+.signals h2 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 3em;
 	text-align: left;
 	line-height: 1;
-	border-bottom: 2px solid white;
+	
 
 }
 
@@ -120,9 +121,10 @@ nav a {
 .signals {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	margin-top: 50px;
+	border-bottom: 2px solid #b9b9b985;
 }
 
 
