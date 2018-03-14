@@ -9,6 +9,7 @@ body {
 	color:#d8d8d8;
 	margin: 0;
 	padding: 0;
+	color:#fff;
 }
 
 .wrap {
@@ -76,22 +77,38 @@ nav a {
 	line-height: 1.9vmax;
 	height: 100%;
 }
-
-.bottom-header a {
-	text-decoration: none;
-}
-
-.titlemain {
-	padding-top: 2em; 
-}
-
-.titlemain h1{
+.bottom-header h1{
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 2em;
 	text-align: center;
 	line-height: 1.5;
 
+}
+
+.bottom-header a {
+	text-decoration: none;
+}
+
+.titlemain { 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.titlemain-sec {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+
+
+.titlemain-sec2 p {
+	line-height: 1;
 }
 
 
@@ -109,7 +126,7 @@ nav a {
 	font-weight: 500;
 	font-size: 2em;
 	margin-top: 1.5em;
-	line-height: 2;
+	line-height: 1;
 }
 
 .bottom-header img {
