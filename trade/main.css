@@ -53,6 +53,10 @@ body {
 	color:#96c0ff;
 }
 
+nav  img {
+	height: 50px;
+}
+
 nav {
 	padding:10px 0;
 	background-color: #c5c5c563;
@@ -68,8 +72,7 @@ nav a {
 .bottom-header {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
 	line-height: 1.9vmax;
 	height: 100%;
 }
@@ -78,19 +81,33 @@ nav a {
 	text-decoration: none;
 }
 
-.bottom-header h1 {
+.titlemain {
+	padding-top: 2em; 
+}
+
+.titlemain h1{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.5;
+
+}
+
+.signals h1 {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 4em;
-	text-align: center;
-	margin: 0;
+	font-size: 3em;
+	text-align: left;
+	line-height: 1;
+	border-bottom: 2px solid white;
 
 }
 
 .bottom-header p {
 	font-weight: 500;
 	font-size: 2em;
-	margin-top: 1em;
+	margin-top: 1.5em;
 	line-height: 2;
 }
 
@@ -98,6 +115,16 @@ nav a {
 	height: 15em;
 	margin-bottom: 2em;
 }
+
+
+.signals {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 50px;
+}
+
 
 .botton {
 	font-weight: 700;
@@ -109,6 +136,7 @@ nav a {
 	box-shadow: 0 -3px rgb(53,167,110) inset;
 	transition: 0.2s;
 	text-transform: uppercase;
+	margin-left: 10em;
 }
 
 div.botton:hover {
