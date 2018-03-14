@@ -6,7 +6,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1vmax;
 	line-height: 1.9vmax;
-	color:#d8d8d8;
 	margin: 0;
 	padding: 0;
 	color:#fff;
@@ -54,13 +53,13 @@ body {
 	color:#96c0ff;
 }
 
-nav  img {
-	height: 50px;
-}
-
 nav {
 	padding:10px 0;
 	background-color: #c5c5c563;
+}
+
+nav  img {
+	height: 50px;
 }
 
 nav a {
@@ -88,6 +87,18 @@ nav a {
 
 .bottom-header a {
 	text-decoration: none;
+}
+
+.bottom-header p {
+	font-weight: 500;
+	font-size: 2em;
+	margin-top: 1.5em;
+	line-height: 1;
+}
+
+.bottom-header img {
+	height: 15em;
+	margin-bottom: 2em;
 }
 
 .titlemain { 
@@ -128,19 +139,6 @@ nav a {
 
 }
 
-.bottom-header p {
-	font-weight: 500;
-	font-size: 2em;
-	margin-top: 1.5em;
-	line-height: 1;
-}
-
-.bottom-header img {
-	height: 15em;
-	margin-bottom: 2em;
-}
-
-
 .signals {
 	display: flex;
 	flex-direction: row;
@@ -149,7 +147,6 @@ nav a {
 	margin-top: 50px;
 	border-bottom: 2px solid #b9b9b985;
 }
-
 
 .botton {
 	font-weight: 700;
@@ -166,4 +163,47 @@ nav a {
 
 div.botton:hover {
 	background-color:#0a6f53;
+}
+
+.section2 {
+	width: 100%;
+	height:30vh;
+	position: relative;
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+	/* display: flex;
+	flex-direction: c;
+	justify-content: center;
+	align-items: center; */
+}
+
+.section2 h1 {
+	text-align: center;
+	color: #4e4848;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.main-conteiners {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.pluses {
+	height: 200px;
+	width: 260px;
+	margin: 1.5em;
+	border-radius: .5em;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;	
+	transition-property: transform;
+	transition-timing-function: ease;
+	transition-duration: .5s;
+	border: 1px solid gray;
 }
