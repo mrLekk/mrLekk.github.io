@@ -344,7 +344,7 @@ blockquote:hover {
 
 .contacts-icons {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -352,6 +352,7 @@ blockquote:hover {
 
 .contacts-icons a {
 	text-decoration:none;
+	margin: 0 10px;
 }
 
 .contacts-icons a:hover {
