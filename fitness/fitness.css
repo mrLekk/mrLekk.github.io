@@ -20,11 +20,7 @@ body {
 
 }
 
-.wrap {
-	
-	width:960px;
-	margin:0 auto;
-}
+
 
 header {
 	background-color: #59d5d8;
@@ -65,12 +61,11 @@ ul.main_menu {
 .main_menu a:hover { 
 	background: none;	
 	box-shadow: none;
-}
-
-
-.main_menu a:hover {
 	color: rgb(255, 255, 255);
 }
+
+
+
 
 .container1 {
 	margin: 0 auto;
@@ -81,13 +76,7 @@ ul.main_menu {
 	transform: translate(-50% 50%);
 }
 
-.lion_img {
-	background-image: url(img/logo.png);
-	height: 220px;
-	background-position: center;
-	background-repeat:no-repeat;
 
-}
 
 .container1 h1 {
 	text-shadow: 4px 4px 4px black, 4px 4px 4px black;
@@ -109,8 +98,6 @@ ul.main_menu {
 	width: 300px;
 	text-align: center;
 	color: #00c5ac;
-	
-	/*text-transform: uppercase; */
 	font-variant: small-caps;
 	border:1px solid #03A9F4;
 }
@@ -119,70 +106,21 @@ ul.main_menu {
 .container1 a:hover {
 	color: white;
 }
+
+
+
+
 .section2 {
 	width: 100%;
 	height: auto;
 	background-color: #20232a;
+	padding-top:2vh;
+	padding-bottom:2vh;
 
 }	
 
-.all_blocks {
-	padding-top: 50px;
-	margin:0 auto;
-	width: 1150px;
-	height: 220px;
-}
 
-
-.all_blocks p {
-	width: 100%;
-	margin-top: 80px;
-	margin-bottom: 0;
-	font-variant: small-caps;
-	/*text-transform: uppercase;*/
-	font-size: 30px;
-	color: #fff;
-	text-align: center;
-	background-color:rgba(0, 0, 0, 0.68);
-}
-
-.block1 {
-	display: flex;
-    align-items: flex-end;
-	background-image: url(img/DEADLIFTS-VIAGRA1.jpg);
-	height: 200px;
-	width: 380px;
-	float: left;
-	
-}
-
-
-.block3 {
-	display: flex;
-    align-items: flex-end;
-	background-image: url(img/nm-actors.jpg);
-	height: 200px;
-	width: 380px;
-	float: right;
-}
-
-
-.block2 {
-	display: flex;
-    align-items: flex-end;
-	background-image: url(img/personal.jpg);
-	margin-right: 5px;
-	height: 200px;
-	width: 380px;
-	float: right;
-}
-
-.section2 {
-	padding-top:2vh;
-	padding-bottom:2vh;
-}
-
-.section2 h2 {
+.main_container h2 {
 	width: 100%;
 	text-shadow: 4px 4px 4px black, 4px 4px 4px black;
 	text-align: center;
@@ -191,6 +129,17 @@ ul.main_menu {
 	color:rgb(243, 190, 41);
 	
 }
+.main_container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
 
 .text-experience p {
 	width: 250px;
@@ -203,11 +152,7 @@ ul.main_menu {
 
 
 
-.main_container {
-	height: 750px;
-	width: 100%;
-	display: flex;
-}
+
 
 .main_container2 {
 	background-image: url(img/asdasd1.jpg);
@@ -225,32 +170,15 @@ ul.main_menu {
 	align-items: center;
 }
 
-.text_container {
-	float: left;
-	margin:0 auto;
-	height: 700px;
-	width: 570px;
-	/*border: 1px solid red;*/
-}
 
 
-.pic_container {
-	background-image: url(img/aaa.jpg) ;
-	background-repeat: no-repeat;
-	background-position: center;
-	float: right;
-	margin:0 auto;
-	height: 700px;
-	width: 570px;
-	/*border: 1px solid red;*/
-}
+
 
 
 
 .first-text {
 	margin:0 auto;
-	height: 400px;
-	width: 550px;
+	width: 80%;
 }
 
 .first-text h4 {
@@ -268,29 +196,50 @@ ul.main_menu {
 	color: white;
 	font-size: 18px;
 	padding: 4px;
+	line-height: 1.5;
 
 }
+
+
 
 .text-icons {
 	display: flex;
-	align-items: flex-end;
+	justify-content: center;
+	align-items: center;
 	margin:0 auto;
-	margin-top: 60px;
-	width: 550px;
-	height: 200px;
-	
+	margin-top: 3em;
+	width: 30%;
+	height: 10em;
+	background-color:#1c1d21;	
+}
+
+.icon-blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: center;
+	height:100%;
+	width: 100%;
 }
 
 .icon-cont1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color:#1c1d21;
-	float: left;
-	height: 180px;
-	width: 180px;
-	
+	background: url('img/dumbbell.png');
+	background-repeat: no-repeat;
+	background-position: center 1em;
+}
+
+
+.icon-cont2 {
+	background: url('img/arm.png');
+	background-repeat: no-repeat;
+	background-position: center 1em;
+}
+
+.icon-cont3 {	
+	background: url('img/heart.png');
+	background-repeat: no-repeat;
+	background-position: center 1em;	
 }
 
 .icon-cont1 p {
@@ -300,18 +249,6 @@ ul.main_menu {
 }
 
 
-.icon-cont2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color:#1c1d21;
-	float: right;
-	height: 180px;
-	width: 180px;
-
-
-}
 
 .icon-cont2 p {
 	color: #f3be29;
@@ -319,17 +256,7 @@ ul.main_menu {
     font-variant: small-caps;
 }
 
-.icon-cont3 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color:#1c1d21;
-	float: right;
-	height: 180px;
-	width: 180px;
-	margin-right: 5px;
-}
+
 
 .icon-cont3 p {
 	color: #f3be29;
