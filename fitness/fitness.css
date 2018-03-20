@@ -13,7 +13,7 @@ body {
 	background-position: center center;
 	background-size: cover;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 
 }
 
@@ -21,6 +21,7 @@ body {
 	
 	width:960px;
 	margin:0 auto;
+	border: 1px solid red;
 }
 
 header {
@@ -174,12 +175,19 @@ ul.main_menu {
 	float: right;
 }
 
+.section2 {
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
 
-.text-experience {
-	padding-top: 40px;
-	height: 150px;
-	width: 1150px;
-	margin:0 auto;
+.section2 h2 {
+	width: 100%;
+	text-shadow: 4px 4px 4px black, 4px 4px 4px black;
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	color:rgb(243, 190, 41);
+	
 }
 
 .text-experience p {
@@ -191,25 +199,15 @@ ul.main_menu {
 	margin: 0;
 }
 
-.text-experience h2 {
-	text-shadow: 4px 4px 4px black, 4px 4px 4px black;
-	text-align: center;
-	font-size: 62px;
-	text-transform: uppercase;
-	color:rgb(243, 190, 41);
-	margin:0;
-}
 
 
 .main_container {
 	height: 750px;
-	width: 1150px;
-	margin: 0 auto;
-	/*border: 1px solid red;*/
+	width: 100%;
+	display: flex;
 }
 
 .main_container2 {
-	/*background-image: url(../asdasd.jpg);*/
 	background-image: url(img/asdasd1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -412,7 +410,6 @@ ul.main_menu {
 	background-image: url("img/fitness-fon1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 900px;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: top;
@@ -437,21 +434,22 @@ ul.main_menu {
 	font-variant: small-caps;
 }
 
-.schedule {
-	margin: 0 auto;
-	
-	height: 600px;
-	width: 1100px;
-	background-color:rgba(0, 0, 0, 0.55) ;
+.schedule {	
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.55);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 table {
 	text-align: center;
 	height: 600px;
-	width: 1100px;
+	width: 60%;
 	color: white;
 	border-collapse: collapse;
 	border: 3px solid grey;
+	margin-bottom: 50px;
 }
 
 th, td {
