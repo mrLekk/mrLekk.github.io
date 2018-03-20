@@ -9,6 +9,9 @@ body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
 .section1 {
 	background-image: url(img/bckgr5.jpg);
 	background-repeat: no-repeat;
