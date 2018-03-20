@@ -69,11 +69,10 @@ ul.main_menu {
 
 .container1 {
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 20vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	transform: translate(-50% 50%);
 }
 
 
