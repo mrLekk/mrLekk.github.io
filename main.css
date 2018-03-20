@@ -403,12 +403,13 @@ blockquote:hover {
 
 }
 
-.waxom {
+/*.waxom {
 	background: url('img/waxom.png');
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
-}
+	display: none;
+}*/
 
 .fitness {
 	background: url('img/fitness.png');
