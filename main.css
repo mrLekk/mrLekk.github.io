@@ -529,17 +529,18 @@ blockquote:hover {
 	}
 	
 	.about-me-text {
-		font-size: 2em;
-		line-height: 1.5;
+		font-size: 2.6em;
+		line-height: 1.2;
 	}
 	
 	blockquote {
-		font-size: 2em;
-		line-height: 1.5;
+		font-size: 2.5em;
+		line-height: 1.2;
+
 	}
 
 	blockquote p:before {
-		top: -10%;
+		top: -8%;
 	}
 	
 	#services h1 {
@@ -552,13 +553,17 @@ blockquote:hover {
 	}
 
 	#services .services-blocks h1 {
-		font-size: 2em;
+		font-size: 2.8em;
 	}
 
 	#services .services-blocks p {
-		font-size: 1.8em;
-		line-height: 1;
+		font-size: 2.5em;
+		line-height: 1.2;
 		padding: 0 10px;
+	}
+
+	.price {
+		font-size: 1em;
 	}
 	
 	.button-serv {
@@ -573,7 +578,8 @@ blockquote:hover {
 	}
 	
 	.portfolio-proj {
-		width: 40em;
+		width: 50em;
+		height: 31em;
 	}
 
 	.project {
