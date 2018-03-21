@@ -488,8 +488,26 @@ blockquote:hover {
 	.top-header li {
 		align-items: center;
 	}
-	
+
 	nav a {
 		font-size: 1.2em;
 	}
+
+	.middle-header h1 {
+		line-height: 2;
+		font-size: 3em;
+	}
+
+	.middle-header p {
+		line-height: 1.5;
+		font-size: 1.8em;
+	}
+
+	button {
+		height: 4em;
+		width: 50%;
+	}
+
+
+
 }
