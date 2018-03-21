@@ -480,9 +480,16 @@ blockquote:hover {
     float: left;
     margin: 0 6px 0 0;
 }
-/* .google-form {
-	display: flex;
-	align-content: center;
-	justify-content: center;
+
+
+
+@media screen and (max-width: 1080px) {
+
+	.top-header li {
+		align-items: center;
+	}
+	
+	nav a {
+		font-size: 1.2em;
+	}
 }
- */
