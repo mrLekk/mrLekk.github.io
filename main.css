@@ -486,11 +486,13 @@ blockquote:hover {
 @media screen and (max-width: 1080px) {
 
 	.top-header li {
-		align-items: center;
+		justify-content: space-between;
+
 	}
 
 	nav a {
 		font-size: 1.2em;
+		margin: 0;
 	}
 
 	.middle-header h1 {
@@ -501,7 +503,7 @@ blockquote:hover {
 
 	.middle-header p {
 		line-height: 1.5;
-		font-size: 2.2em;
+		font-size: 2.1em;
 		text-align: left;
 	}
 
@@ -516,6 +518,83 @@ blockquote:hover {
 	.bottom-header h1 {
 		font-size: 1.2em;
 	}
+	
+	.h-translate {
+		font-size: 1.2em;
+	}
+	
+	.about-me h1{
+		font-size: 5em;
+	}
+	
+	.about-me-text {
+		font-size: 2em;
+		line-height: 1.5;
+	}
+	
+	blockquote {
+		font-size: 2em;
+		line-height: 1.5;
+	}
+
+	blockquote p:before {
+		top: -10%;
+	}
+	
+	#services h1 {
+		font-size: 5em;
+	}
+
+	.services-blocks {
+		width: 100%;
+		height: auto;
+	}
+
+	#services .services-blocks h1 {
+		font-size: 2em;
+	}
+
+	#services .services-blocks p {
+		font-size: 1.8em;
+		line-height: 1;
+		padding: 0 10px;
+	}
+	
+	.button-serv {
+		margin-top: 2em;
+		height: 3em;
+		font-size: 1.5em;
+	}
 
 
+	#portfolio h1 {
+		    font-size: 5em
+	}
+	
+	.portfolio-proj {
+		width: 40em;
+	}
+
+	.project {
+		width: 750px;
+		height: 300px;
+	}
+
+	.contacts h2 {
+		font-size: 2.4em;
+		line-height: 1;
+	}
+
+	.contacts-icons {
+		font-size: 1.8em;
+		line-height: .8;
+	}
+
+	.mail::before {
+		display: none;
+	}
+
+	.mobile::before {
+		display: none;
+	}
 }
