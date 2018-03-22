@@ -172,6 +172,8 @@ nav a {
 
 
 .git {
+	/*Скрыто! Пока не перейду на хостинг*/
+	display: none;
 	background-color: #181717;
 	background-image: url('img/github.svg');
 	background-repeat: no-repeat;
