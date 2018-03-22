@@ -76,6 +76,7 @@ ul.main_menu {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	align-self: center;
 }
 
 
@@ -91,17 +92,19 @@ ul.main_menu {
 }
 
 .container1 a {
-	border-radius: 20px;
-	display: block;
-	margin: 0 auto;
-	text-decoration: none;
-	padding: 5px;
-	height: 20px;
-	width: 300px;
-	text-align: center;
-	color: #00c5ac;
-	font-variant: small-caps;
-	border:1px solid #03A9F4;
+	border-radius: 4px;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 10px;
+    height: 2em;
+    width: 300px;
+    color: #ececec;
+    background-color: #27272752;
+    font-variant: small-caps;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -209,7 +212,6 @@ ul.main_menu {
 	justify-content: center;
 	align-items: center;
 	margin-top: 3em;
-
 	height: 10.5em;
 	background-color:#1c1d21;	
 }
@@ -243,29 +245,12 @@ ul.main_menu {
 	background-position: center 1em;	
 }
 
-.icon-cont1 p {
+.p-3blocks {
 	color:#f3be29;
     font-size: 20px;
     font-variant: small-caps;
+   	margin: 0;
 }
-
-
-
-.icon-cont2 p {
-	color: #f3be29;
-    font-size: 20px;
-    font-variant: small-caps;
-}
-
-
-
-.icon-cont3 p {
-	color: #f3be29;
-    font-size: 20px;
-    font-variant: small-caps;
-}
-
-
 
 .treners {
 	display: flex;
@@ -443,8 +428,11 @@ a:active {
 	background-position: center;
 	background-size: cover;
 	width: 100%;
-	height: 350px;
-	background-color: gray;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .subscribe_main h1 {
@@ -468,16 +456,11 @@ a:active {
 	border-bottom: 1px solid white;
 }
 
-.subscribe {
-	width: 900px;
-	height: 350px;
-	margin:0 auto;
 
-}
 
 form {
 	text-align: center;
-	margin-top: 50px;
+	margin:30px 0;
 
 }
 
@@ -637,4 +620,55 @@ footer {
 	font-size: 14px;
 	margin-top: 0;
 	padding-top: 10px;
+}
+
+
+@media screen and (max-width: 1080px) {
+	
+	.main_menu a {
+		font-size: 2.5em;
+		padding: 0;
+	}
+
+	.container1 h1 {
+		font-size: 8em;
+	}
+
+	.container1 a {
+		height: 2.5em;
+		font-size: 2em;
+		width: auto;
+		padding: 1em;
+	}
+
+	.main_container h2 {
+		font-size: 5em;
+	}
+
+	.first-text h4 {
+		font-size:3.5em;
+	}
+
+	.first-text p {
+		font-size: 3em;
+	}
+
+	.text-icons {
+		height: 12em;
+	}
+	
+	.main_container2 h1 {
+		font-size: 4em;
+	}
+	
+	.subscribe_main h1 {
+		font-size: 4em;
+	}
+
+	.subscribe_main p {
+		font-size: 3em;
+		padding: 0 2em;
+	}
+
+	
 }
