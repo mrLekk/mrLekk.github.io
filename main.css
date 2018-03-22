@@ -19,6 +19,14 @@ body {
 	position:relative;
 }
 
+.h1-main {
+	color: #333;
+	text-align: center;
+	font-weight: 600;
+	font-size: 2em;
+	line-height: 1.2;
+}
+
 button {
 	width: 350px;
 	height: 40px;
@@ -250,13 +258,13 @@ nav a {
 	box-shadow: 5px 5px 20px 0px #d0d0d0;
 }
 
-.about-me h1 {
+/*.about-me h1 {
 	color: #333;
 	text-align: center;
 	font-weight: 600;
 	font-size: 45px;
 	line-height: 1.2;
-}
+}*/
 
 
 blockquote {
@@ -302,7 +310,7 @@ blockquote:hover {
 	padding-bottom: 5vh;
 }
 
-#services h1 {
+/*#services h1 {
 	color: #333;
     text-align: center;
     font-weight: 600;
@@ -310,7 +318,7 @@ blockquote:hover {
     margin-bottom: 1.2em;
     line-height: 1.2;
 }
-
+*/
 .service-main {
 	display: flex;
 	flex-wrap: wrap;
@@ -342,6 +350,7 @@ blockquote:hover {
 	font-size: 1.4em;
 	color: #333;
 	font-weight: 500;
+	text-align: center;
 }
 
 #services .services-blocks p {
@@ -364,7 +373,7 @@ blockquote:hover {
 
 
 
-#portfolio h1 {
+/*#portfolio h1 {
 	color: #333;
 	text-align: center;
 	font-weight: 600;
@@ -372,7 +381,7 @@ blockquote:hover {
 	line-height: 1.2;
 	margin-top: 0;
 }
-
+*/
 
 
 
@@ -427,6 +436,16 @@ blockquote:hover {
 	flex-direction: column;
 	justify-content: flex-start;
 }
+
+
+/*.contacts h1 {
+	color: #333;
+	text-align: center;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 1.2;
+	margin-top: 0;
+}*/
 
 .contacts-icons {
 	display: flex;
@@ -488,6 +507,10 @@ blockquote:hover {
 
 @media screen and (max-width: 1080px) {
 
+	.h1-main {
+		font-size: 4em;
+	}
+
 	.top-header li {
 		justify-content: space-between;
 
@@ -526,9 +549,6 @@ blockquote:hover {
 		font-size: 1.2em;
 	}
 	
-	.about-me h1{
-		font-size: 5em;
-	}
 	
 	.about-me-text {
 		font-size: 2.6em;
@@ -545,17 +565,15 @@ blockquote:hover {
 		top: -8%;
 	}
 	
-	#services h1 {
-		font-size: 5em;
-	}
 
 	.services-blocks {
 		width: 100%;
 		height: auto;
 	}
 
-	#services .services-blocks h1 {
+	#services .services-blocks h1 {	
 		font-size: 2.8em;
+		line-height: 1.2;
 		padding: 0 10px;
 	}
 
@@ -576,9 +594,6 @@ blockquote:hover {
 	}
 
 
-	#portfolio h1 {
-		    font-size: 5em
-	}
 	
 	.portfolio-proj {
 		width: 50em;
