@@ -543,7 +543,7 @@ blockquote:hover {
 		text-align: left;
 	}
 
-	button {
+	.button {
 		height: 5em;
 		width: 50%;
 		align-self: center;
