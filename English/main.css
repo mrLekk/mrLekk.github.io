@@ -14,7 +14,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #fff;
 }
 
 .wrap {
@@ -30,25 +30,28 @@ a {
 }
 
 .button:hover {
-	color: black;
-    background-color:rgba(255, 252, 160, 0.5);
-	padding: 1em;
+    background-color:rgb(16, 114, 191);
 }
 
 .button2 {
 	height: 2em;
-	background-color: gray;
+	background-color:rgb(0, 173, 251);
+	color: white;
 	width: 30%;
 	text-align: center;
 }
 
+.button2:hover{
+    background-color:rgb(16, 114, 191);
+}
 
 #section1 {
 	height: 100vh;
-	background: url('img/back3.jpg');
+	background: url('img/eng11.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: white;
 }
 
 header {
@@ -76,7 +79,7 @@ img {
 
 
 .nav a:hover {
-    background-color: rgba(255, 252, 160, 0.5);
+    background-color:rgb(16, 114, 191);
 }
 
 .main-text {
@@ -91,12 +94,12 @@ img {
 	align-self:center;
 	box-sizing: border-box;
 	padding: 1em;
-	background-color: rgba(195, 195, 195, 0.33);
+	background-color:rgba(93, 93, 93, 0.33);
 
 }
 
 .main-text:hover {
-	background-color: rgba(195, 195, 195, 0.60)
+	background-color: rgba(39, 39, 39, 0.6);
 }
 .main-text h1 {
 	font-weight: 500;
@@ -116,6 +119,11 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background: url('img/back3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 }
 
 .section2 h1 {
@@ -142,22 +150,56 @@ img {
 .programm-item {
 	box-sizing: border-box;
 	padding: 1em;
-	height: auto;
-	width: 30%;
+	height:20em;
+	width: 25%;
 	margin: 1em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	box-shadow: 2px 2px 10px rgba(142, 142, 142, 0.2);
+	background-color: rgba(255, 255, 255, 0.48);
 }
 
 .programm-item:hover {
-	box-shadow:inset 1px 1px 20px 2px rgba(142, 142, 142, 0.2);
+	background-color: rgba(255, 255, 255, 0.84);
 }
 
-.individual{
+.programm-pic{
+	height: 80%;
+	width: 100%;
+}
+
+.pic1 {
+	background: url('img/indiv2.jpg');
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic2 {
 	background: url('img/indiv.jpg');
-	background-position: center;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic3 {
+	background: url('img/indiv3.jpg');
+	background-position:top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic4 {
+	background: url('img/indiv4.jpg');
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic5 {
+	background: url('img/indiv5.jpg');
+	background-position:center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -167,10 +209,12 @@ img {
 	font-size: 1.5em;
 	text-align: center;
 	font-weight: 400;
+	margin-top: 0;
 }
 
 .programm-item p{
-	font-size: 1em;
+	font-size: .8em;
+	line-height: 1;
 }
 
 .price-button {
