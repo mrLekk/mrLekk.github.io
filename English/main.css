@@ -45,6 +45,9 @@ a {
     background-color:rgb(16, 114, 191);
 }
 
+
+
+/*Секция 1 тут */
 #section1 {
 	height: 100vh;
 	background: url('img/eng11.jpg');
@@ -59,7 +62,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	height: 2em;
-	background-color:rgba(179, 176, 176, 0.3);;
+	background-color:rgba(179, 176, 176, 0.3);
 	padding: 0 1em;
 	box-sizing: border-box;
 }
@@ -75,8 +78,6 @@ img {
 	padding:.8em 1em;
 	box-sizing: border-box;
 }
-
-
 
 .nav a:hover {
     background-color:rgb(16, 114, 191);
@@ -115,16 +116,19 @@ img {
 
 
 
+
+
+/*Секция 2 тут */
 .section2{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: url('img/back3.jpg');
+	background: url('img/pic3.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-}
+
 
 .section2 h1 {
 	font-weight: 500;
@@ -221,5 +225,96 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
 
+
+
+/*Секция 3 тут */
+
+.section3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	padding: 1vh 0;
+}
+
+.section3 p {
+	line-height: 1.5;
+	font-size: .9em;
+	white-space: pre-line;
+}
+
+
+.teachers-main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+
+.teacher-item {
+	height: 200px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 50%;
+	margin: 1em;
+}
+
+.teacher1 {
+	background: url('img/teacher1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.teacher2 {
+	background: url('img/teacher2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.teacher3 {
+	background: url('img/teacher3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.teacher4 {
+	background: url('img/teacher5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.teacher-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 10px;
+	background-color: rgba(222, 222, 222, 0.53);
+}
+
+.teacher-info:hover {
+	box-shadow: 0px 6px 20px 3px rgba(177, 176, 176, 0.6);
+}
+
+.teacher-info h4 {
+	margin: 0;
+	text-align: center;
+	font-size: 1em;
+}
+
+.teacher-info p {
+	line-height: .8;
+	font-size: .8em;
 }
