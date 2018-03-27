@@ -238,6 +238,7 @@ img {
 	align-items: center;
 	width: 60%;
 	padding: 1vh 0;
+	padding-bottom: 5vh;
 }
 
 .section3 p {
@@ -317,4 +318,41 @@ img {
 .teacher-info p {
 	line-height: .8;
 	font-size: .8em;
+}
+
+
+/*секция 4 тут*/
+.section4 {
+position: relative;
+display: flex;
+}
+
+
+.contacts {	
+	width: 50%;	
+	background-color: rgba(237, 237, 237, 0.46);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts h1 {
+	text-align: center;
+}
+.contacts h3 {
+	margin-bottom: 0;
+}
+
+.contacts p {
+	text-align: center;
+	margin: 0;
+}
+
+.contact-icons {
+	margin-top: 2em; 
+}
+
+.contact-icons img {
+	height: 2em;
 }
