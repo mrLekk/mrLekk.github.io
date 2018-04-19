@@ -73,6 +73,7 @@ li {
 	display: flex;
 	align-items: center;
 	list-style:none;
+
 }
 
 h3,h4,h5 {
@@ -104,7 +105,6 @@ h4 {
 .dont:before {
 	content: " •••";
 	color: black;
-	counter-increment: myCounter;
 	background: rgb(255, 246, 165);
 	border: 1px solid gray;
 	border-radius: 16px;
