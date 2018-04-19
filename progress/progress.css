@@ -86,8 +86,8 @@ h4 {
 
 .done:before {
 	content: "✔ ";
-	color: black;
-	background: rgb(144, 255, 149);
+	color: white;
+    background: #4CAF50;
 	border: 1px solid gray;
 	display: inline-block;
 	text-align: center;
