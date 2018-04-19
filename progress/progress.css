@@ -30,7 +30,9 @@ p {
 	position:relative;
 }
 
-
+.graytext {
+	color: gray;
+}
 
 .line-through {
 	text-decoration: line-through;
@@ -53,10 +55,11 @@ h4 {
 
 .done:before {
 	content: "✔ ";
-	color: green;
+	color: black;
 	counter-increment: myCounter;
-	background: white;
+	background: rgb(144, 255, 149);
 	border: 1px solid gray;
+	border-radius: 50%;
 	display: inline-block;
 	text-align: center;
 	margin: 5px 10px;
@@ -69,8 +72,9 @@ h4 {
 	content: " •••";
 	color: black;
 	counter-increment: myCounter;
-	background: white;
+	background: rgb(255, 246, 165);
 	border: 1px solid gray;
+	border-radius: 50%;
 	display: inline-block;
 	text-align: center;
 	margin: 5px 10px;
