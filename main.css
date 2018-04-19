@@ -168,6 +168,9 @@ nav a {
 	font-size: .7em;
 }
 
+.nav-progress {
+	border-bottom: 1px solid orange;
+}
 
 .boxes {
 	display: flex;
