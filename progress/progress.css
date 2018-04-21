@@ -128,7 +128,16 @@ h3,h4,h5 {
 }
 
 .back-homepage {
-	font-size: 2em;
+	font-size: 2.5em;
+}
+
+.back-homepage:before {
+	font-size: 1.2em;
+}
+
+.back-homepage:after {
+	border: 6px solid #FFC107;
+	margin-top: -8px;
 }
 
 h2,h3{
@@ -137,17 +146,18 @@ h2,h3{
 
 p {
 	font-size: 2em;
+	line-height: 1.5;
 }
 
 
 li{
 	font-size: 1.6em;
-	line-height: 1.8;
+	line-height: 2;
 	white-space: pre-line;
 }
 
 .dont:before,.done:before  {
-	width: 2.4em;
+	width: 60px;
 	height: 1.3em;
 	margin-right: 20px;
 
