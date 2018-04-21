@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	color:black;	
 	background: url('textures/pix3.jpg');
-	background-position: top;
+	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -125,18 +125,18 @@ h3,h4,h5 {
 @media screen and (max-width: 1080px) {
 
 .main {
-	width: 90%;
+	width: 100%;
 	margin:0 auto;
 	position:relative;
 
 }
 
 .back-homepage {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 .back-homepage:before {
-	font-size: 1.2em;
+	font-size: 1.8em;
 }
 
 
@@ -147,7 +147,7 @@ h2,h3{
 }
 
 p {
-	font-size: 2em;
+	font-size: 1.6em;
 	line-height: 1;
 }
 
