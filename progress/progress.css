@@ -157,7 +157,7 @@ li{
 }
 
 .dont:before,.done:before  {
-	width: 60px;
+	width: 80px;
 	height: 1.3em;
 	margin-right: 20px;
 
