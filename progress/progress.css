@@ -82,9 +82,6 @@ h3,h4,h5 {
 	margin-top: 0;
 }
 
-h4 {
-	
-}
 
 .done:before {
 	content: "✔ ";
@@ -116,4 +113,53 @@ h4 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+
+/* ------ ---тут мобильные--- ----- */
+
+@media screen and (max-width: 1080px) {
+
+.main {
+	width: 90%;
+	margin:0 auto;
+	position:relative;
+
+}
+
+.back-homepage {
+	font-size: 2em;
+}
+
+h2,h3{
+	font-size: 3em;
+}
+
+p {
+	font-size: 2em;
+}
+
+
+li{
+	font-size: 1.6em;
+	line-height: 1.8;
+	white-space: pre-line;
+}
+
+.dont:before,.done:before  {
+	width: 2.4em;
+	height: 1.3em;
+	margin-right: 20px;
+
+}
+
+a::after {
+	content: "";
+	display: block;
+	border: 4px solid #FFC107;
+	margin-top: -12px;
+
+}
+
+
 }
