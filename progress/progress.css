@@ -19,19 +19,11 @@ body {
 }
 
 a {
-	color: black;
-    display: inline-block;
+	color:rgb(19, 63, 195);
     margin-left: 2px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-a::after {
-	content: "";
-	display: block;
-	border: 4px solid #FFC107;
-	margin-top: -6px;
-
-}
 
 p {
 	font-size: 18px;
@@ -40,17 +32,19 @@ p {
 	font-weight: 300;
 }
 
+.back-homepage {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+
 .back-homepage:before {
 	content: "←";
 	font-size: 25px;
 }
 
-.back-homepage:after {
-	content: "";
-	display: block;
-	border: 4px solid #FFC107;
-	margin-top: -12px;
-}
+
 .main {
 	width: 50vw;
 	margin:0 auto;
@@ -62,7 +56,7 @@ p {
 }
 
 .line-through {
-	text-decoration: line-through;
+	text-decoration: line-through;	
 }
 
 
@@ -74,7 +68,9 @@ li {
 	display: flex;
 	align-items: center;
 	list-style:none;
-
+	position: relative;
+	padding: 6px 0;
+	margin-left: 10px;
 }
 
 h2 {
@@ -89,13 +85,14 @@ h3,h4,h5 {
 
 .done:before {
 	content: "✔ ";
-	color: white;
+	color: rgb(255, 255, 255);
     background: #4CAF50;
 	border: 1px solid gray;
-	display: inline-block;
+	
 	text-align: center;
 	border-radius: 16px;
-	margin: 5px 10px;
+	position: absolute;
+	left: -50px;
 	line-height: 40px;
 	width: 40px;
 	height: 22px;
@@ -106,11 +103,12 @@ h3,h4,h5 {
 
 .dont:before {
 	content: " •••";
+	position: absolute;
+	left: -50px;
 	color: black;
 	background: rgb(255, 246, 165);
 	border: 1px solid gray;
 	border-radius: 16px;
-	margin: 5px 10px;
 	line-height: 40px;
 	width: 40px;
 	height: 22px;
@@ -159,12 +157,14 @@ li{
 	font-size: 1.6em;
 	line-height: 2;
 	white-space: pre-line;
+	margin-left: 60px;
 }
 
 .dont:before,.done:before  {
 	width: 80px;
-	height: 1.3em;
-	margin-right: 20px;
+	height:40px;
+	left: -100px;
+
 
 }
 
