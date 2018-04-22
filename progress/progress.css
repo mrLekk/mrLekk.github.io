@@ -17,16 +17,15 @@ body {
 }
 
 a {
-	color:rgb(19, 63, 195);
+	color:rgb(7, 92, 160);
     text-decoration: underline;
 }
 
 
 p {
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 1.4;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	
 }
 
 .back-homepage {
@@ -63,7 +62,7 @@ p {
 
 
 li {
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 500;
 	line-height: 1;
 	display: flex;
@@ -75,13 +74,10 @@ li {
 }
 
 h2 {
-	line-height: 1;
+	line-height: 1.5;
 }
 
-h3,h4,h5 {
-	margin-bottom: 0;
-	margin-top: 0;
-}
+
 
 .progress::before {
 	color: black;
@@ -96,11 +92,13 @@ h3,h4,h5 {
 }
 
 .done:before {
-	content: "✔ ";
+	content: "🗸";
+	font-weight: 700;
 }
 
 .dont:before {
 	content: " •••";
+
 }
 
 
