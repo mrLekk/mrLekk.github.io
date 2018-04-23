@@ -9,11 +9,12 @@ body {
 	line-height: 1.9vmax;
 	margin: 0;
 	padding: 0;
-	color:black;	
-	background: url('textures/pix1.jpg');
+	color:black;
+	background:linear-gradient(#bbcbd8,#67a0b7,#476caf,#244684,#192650);	
+	/*background: url('textures/pix1.jpg');
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 a {
@@ -104,6 +105,7 @@ h2 {
 /* ------ ---тут мобильные--- ----- */
 
 @media screen and (max-width: 1080px) {
+
 
 
 
