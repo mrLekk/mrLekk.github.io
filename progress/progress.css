@@ -9,11 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color:black;
-	background:linear-gradient(to top, #005aa7, #f1f0e7);	
-	/*background: url('textures/pix1.jpg');
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;*/
+	background:linear-gradient(to top, #005aa7, #f1f0e7);
 }
 
 a {
@@ -59,8 +55,6 @@ p {
 	text-decoration: line-through;	
 }
 
-
-
 li {
 	font-size: 17px;
 	font-weight: 500;
@@ -76,7 +70,6 @@ li {
 h2 {
 	line-height: 1.5;
 }
-
 
 
 .progress::before {
