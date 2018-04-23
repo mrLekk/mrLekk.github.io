@@ -91,7 +91,7 @@ h2 {
 }
 
 .done:before {
-	content: "🗸";
+	content: "✓";
 	font-weight: 700;
 }
 
