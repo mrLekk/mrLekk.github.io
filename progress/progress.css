@@ -6,7 +6,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1vmax;
 	line-height: 1.9vmax;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	color:black;
@@ -106,9 +105,33 @@ h2 {
 /* ------ ---тут мобильные--- ----- */
 
 @media screen and (max-width: 1080px) {
+	body{
+		height: 100%;
+	}
+	
+	.main {
+		width: 94%;
+		height: 100%;
+	}
 
+	.back-homepage {
+		font-size: 2em;
+	}
+	
+	.my-way,h3 {
+		font-size: 2.8em;
+	}
 
+	.main-p {
+		font-size: 2em;
+	}
 
+	li {
+		font-size: 2em;
+		line-height: 1.2;
+	}
 
-
+	.progress::before {
+		font-size: 1em;
+	}
 }
