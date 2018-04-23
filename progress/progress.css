@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
-
+/**{
+	border: 1px solid red;
+}*/
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -50,6 +52,7 @@ p {
 	box-sizing: border-box;
 	background-color: rgba(239, 239, 239, 0.7);
 	box-shadow: 0px 0px 20px 6px rgba(72, 72, 72, 0.2);
+	box-sizing: border-box;
 }
 
 .graytext {
