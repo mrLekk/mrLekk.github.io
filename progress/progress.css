@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color:black;
-	background:linear-gradient(#bbcbd8,#67a0b7,#476caf,#244684,#192650);	
+	background:linear-gradient(to top, #005aa7, #f1f0e7);	
 	/*background: url('textures/pix1.jpg');
 	background-position: center;
 	background-attachment: fixed;
