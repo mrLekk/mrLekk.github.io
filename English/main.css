@@ -358,17 +358,18 @@ img {
 .section4 {
 	position: relative;
 	display: flex;
-	height: auto;
+	height: 22em;
 }
 
 
 .contacts {	
 	width: 50%;	
-	background-color: rgba(237, 237, 237, 0.46);
+	background-color:#22303a;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 
 .contacts h1 {
@@ -383,10 +384,63 @@ img {
 	margin: 0;
 }
 
-.contact-icons {
-	margin-top: 2em; 
+
+
+/*---------- Футер тут ---------*/
+
+.footer-wrap {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding: 1em;
 }
 
-.contact-icons img {
-	height: 2em;
+footer {
+	color: white;
+	background-color: #2e2e2e;
+	height: 260px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.footer_menu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.bottom_a{
+	color: white;
+	text-decoration: none;
+}
+
+.instagram,.vkontakte,.telegram {
+	position: relative;
+
+}
+
+.instagram:before {
+	content: url('img/instagram.png');
+	position: absolute;
+	bottom:-5px;
+	left: -40px;
+}
+
+.vkontakte:before {
+	content: url('img/vkontakte.png');
+	position: absolute;
+	bottom:-5px;
+	left: -40px;
+}
+
+.telegram:before {
+	content: url('img/telegram.png');
+	position: absolute;
+	bottom:-5px;
+	left: -40px;
 }
