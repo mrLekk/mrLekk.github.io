@@ -4,6 +4,7 @@
 	<title>Next-School</title>
 	<link rel="stylesheet" href="English/main.css">
 	<meta charset="utf-8">
+	
 </head>
 <body>
 
@@ -11,11 +12,9 @@
 	<header class="wrap">
 		<h1 class="school-name">Next School</h1 >
 		<div class="nav">
-			<a href="#">Программы</a>
-			<a href="#">Школа</a>
-			<a href="#">Преподователи</a>
-			<a href="#">Цены</a>
-			<a href="#">Контакты</a>
+			<a href="#programms"><li> Программы</li></a>
+			<a href="#about_us"><li>О Нас</li></a>
+			<a href="#contacts"><li>Контакты</li></a>
 		</div>
 		
 	</header>
@@ -34,9 +33,9 @@
 
 
 
-<section class="section2">
+<section class="section2" id="programms">
 	<h2>Выберите программу обучения подходящую Вам!</h2>
-	<div class="programms">
+	<div class="programms" >
 
 
 		<div class="programm-item">
@@ -70,7 +69,7 @@
 				<!-- <p>Разрабатываем персональную программу для каждого студента и занимаемся с ним в удобное время.</p> -->
 
 				<div class="price-button">
-					<p> от 1000 руб</p>
+					<p class="price">600руб/занятие — 5000руб/месяц</p>
 					<a href="#" class="button2"> Выбрать</a>
 				</div>
 			</div>
@@ -88,7 +87,7 @@
 				<!-- <p>Преподаватели ведут уроки по Skype. Студенты изучают английский из дома или офиса в удобное им время.</p> -->
 
 				<div class="price-button">
-					<p>500 руб</p>
+					<p class="price">400руб/занятие —4500руб/месяц</p>
 					<a href="#" class="button2"> Выбрать</a>
 				</div>
 			</div>
@@ -103,12 +102,12 @@
 			<div class="programm-pic pic5"></div>
 			
 			<div class="programm-wrapp">
-				<h1> Английский язык для детей</h1>
+				<h1> Английский для детей</h1>
 			
 				<!-- <p>Группы делятся по возрасту: 7–12 лет и 12–17 лет.</p> -->
 
 				<div class="price-button">
-					<p> 5400 руб</p>
+					<p class="price">600руб/занятие —5500руб/месяц</p>
 					<a href="#" class="button2"> Выбрать</a>
 				</div>
 			</div>
@@ -122,7 +121,7 @@
 
 <!-- секция 3 -->
 
-<section class="section3">
+<section class="section3" id="about_us">
 
 	<h1>О компании:</h1>
 	<p class="sec3_aboutus">
@@ -137,10 +136,10 @@
 		<div class="teacher-info">
 			
 			<div class="teacher-item teacher1"></div>
-			<h4>Николай Петров</h4>
+			<h4>Tom Smith</h4>
 
 			<p>Носитель языка <br>
-				Опыт свыше 5 лет
+				Опыт: 9 лет
 			</p>
 
 		</div>
@@ -149,10 +148,10 @@
 		<div class="teacher-info">
 			
 			<div class="teacher-item teacher2"></div>
-			<h4>Дмитрий Рыбаков</h4>
+			<h4>Kevin McRoy</h4>
 
 			<p>Носитель языка <br>
-				Опыт свыше 5 лет
+				Опыт: 10 лет
 			</p>
 
 		</div>
@@ -163,8 +162,8 @@
 			<div class="teacher-item teacher3"></div>
 			<h4>Мария Темникова</h4>
 
-			<p>Преподователь A class<br>
-				Опыт свыше 5 лет
+			<p><span class="teacher_color_text">Преподователь A class </span><br>
+				Опыт: 5 лет
 			</p>
 
 		</div>
@@ -176,7 +175,7 @@
 			<h4>Екатерина Лебедева</h4>
 
 			<p>Преподователь A class <br>
-				Опыт свыше 5 лет
+				Опыт: 7 лет
 			</p>
 
 		</div>
@@ -184,7 +183,41 @@
 
 		
 	</div>
-<a href="#" class="button">Узнать больше о Нас</a>
+
+
+
+</section>
+
+
+<section class="reviews">
+	<h1>Отзывы наших клиентов:</h1>
+	<p class="we_reviews">Мы небольшая, но опытная команда, с которыми вы полюбите работать. 
+	Но не нужно верить нам наслово. <br>Посмотрите что говорят наши ученики.</p>
+	
+	<div class="reviews_main">
+		
+		<div class="reviews-box">
+			<h3>Марина</h3>
+
+			<p class="review-text">«Я закончила 1 уровень и очень рада тому, что сейчас могу выразить свои мысли на английском языке, хотя еще нет большого словарного запаса. Курс показался доступным для понимания. Курсы интенсивные, поэтому было мало времени для заучивания слов. А в общем все понравилось.»</p>
+
+		</div>
+		<div class="reviews-box">
+			<h3>Стас</h3>
+
+			<p class="review-text">«Мне нравится метод изучения в "Эплайд" тем, что большую часть материала я успеваю усвоить на занятии, а дома повторить. Помогает освоить язык то, что на занятиях мы много беседуем. Спасибо!» </p>
+
+		</div>
+		<div class="reviews-box">
+			<h3>Константин</h3>
+
+			<p class="review-text">«Начиная этот курс, я думал, что загрузят жесткой грамматикой. Ан нет! Оказалось, все не так уж сложно. Разнообразные тематики для общения, различные типы заданий помогли мне заполнить большие пробелы в знаниях, и хотя этих пробелов еще много, я надеюсь что все у меня получится»</p>
+
+		</div>
+		
+
+
+	</div>
 
 
 
@@ -195,7 +228,7 @@
 
 
 <!-- Секция 4 тут -->
-<section class="section4">
+<section class="section4" id="contacts">
 	
 <iframe src="https://yandex.ru/map-widget/v1/-/CBex5ISN8C" width="50%" height="100%" frameborder="0"></iframe>
 
@@ -213,8 +246,10 @@
 
 </div>
 
-
 </section>
+
+
+
 
 
 <footer>
@@ -229,11 +264,11 @@
 
 	</div>
 	<div class="footer_menu">
-		<a href="#" class="bottom_a">Программы</a>
-		<a href="#" class="bottom_a">Школа</a>
-		<a href="#" class="bottom_a">Преподователи</a>
-		<a href="#" class="bottom_a">Цены</a>
-		<a href="#" class="bottom_a">Контакты</a>
+		<a href="#programms" class="bottom_a">Программы</a>
+		<a href="#about_us" class="bottom_a">О Нас</a>
+		<a href="#contacts" class="bottom_a">Контакты</a>
+		<a href="#" class="bottom_a"> Лицензии и награды</a>
+		<a href="#" class="bottom_a"> Вакансии</a>
 	</div>
 
 	
@@ -264,14 +299,8 @@
 
 
 
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-
-
-
-
-
-<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
- -->
 
 </body>
 </html>

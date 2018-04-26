@@ -12,11 +12,23 @@ body {
 	line-height: 1.9vmax;
 }
 
+li {
+	display: inline-block;
+	color: #3a3a3a;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
 a {
 	text-decoration: none;
-    color: #3a3a3a;
-    margin-left: 10px;
-    font-weight: 500;
+	font-weight: 500;
+}
+
+
+.bottom_a{
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 .nav a:hover {
@@ -336,7 +348,12 @@ img {
 	align-items: center;
 	margin: 10px;
 	background-color:rgba(202, 202, 202, 0.49);
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
 }
+
+
 
 .teacher-info:hover {
 	box-shadow:0px 6px 20px 3px rgba(156, 156, 156, 0.6);
@@ -351,10 +368,12 @@ img {
 .teacher-info p {
 	line-height: .8;
 	font-size: .8em;
+	
 }
 
 
-/*секция 4 тут*/
+
+/* ------- секция 4 тут------ */
 .section4 {
 	position: relative;
 	display: flex;
@@ -400,7 +419,7 @@ img {
 footer {
 	color: white;
 	background-color: #2e2e2e;
-	height: 260px;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -414,13 +433,10 @@ footer {
 	justify-content: center;
 }
 
-.bottom_a{
-	color: white;
-	text-decoration: none;
-}
 
 .instagram,.vkontakte,.telegram {
 	position: relative;
+	font-weight:500;
 
 }
 
@@ -443,4 +459,53 @@ footer {
 	position: absolute;
 	bottom:-5px;
 	left: -40px;
+}
+
+
+.reviews {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f7f7f7;
+	padding-top: 4em;
+	padding-bottom:4em;
+
+}
+
+.we_reviews {
+	text-align: center;
+	font-weight: 500;
+	
+}
+
+.reviews_main {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.reviews-box {
+	background-color:#fff;
+	width: 350px;
+	padding: 1em;
+	box-sizing: border-box;
+	box-shadow:3px 5px 20px rgba(173, 173, 173, 0.72),
+	 -6px -6px 0px #00968875;
+	margin: 1em;
+}
+
+.reviews-box:hover {
+	box-shadow:-6px -6px 0px #009688,
+	 6px 6px 0px #009688;
+}
+
+.review-text {
+	font-size: 14px;
+	font-weight: 500;
 }
