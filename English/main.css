@@ -512,16 +512,21 @@ footer {
 @media screen and (max-width: 1080px) {
 
 	h1{
-		font-size: 3em;
+		font-size: 2.5em;
 		line-height: 1.5;
+		text-align: center;
+	}
+	#section1 {
+		height: 85vh;
 	}
 	
 	.section2 {
 		height: auto;
 	}
 
-	.section2 h1 {
-		font-size: 3em;
+
+	.section2 h1,.section3 h1 {
+		font-size: 2.5em;
 		line-height: 1.5;
 		text-align: center;
 	}
@@ -548,7 +553,7 @@ footer {
 
 
 	.section3 .sec3_aboutus {
-		font-size: 2.2em;
+		font-size: 1.6em;
 		margin-top: 0;
 	}
 
@@ -577,7 +582,7 @@ footer {
 	}
 
 	.reviews .we_reviews {
-		font-size: 2.2em;
+		font-size: 1.8em;
 	}
 
 	.reviews-box {
@@ -590,7 +595,7 @@ footer {
 	}
 
 	.review-text {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.section4 {
@@ -635,6 +640,7 @@ footer {
 	header {
 		height: 120px;
 	}
+
 	.school-name {
 		font-size: 2em;
 	}
