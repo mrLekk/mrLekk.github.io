@@ -12,6 +12,11 @@ body {
 	line-height: 1.9vmax;
 }
 
+h1 {
+	font-size: 25px;
+}
+
+
 li {
 	display: inline-block;
 	color: #3a3a3a;
