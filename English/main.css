@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
 
 
 body {
@@ -6,7 +7,8 @@ body {
 	padding: 0;
 	background-color: #fff;
 	color: #3a3a3a;
-	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Comfortaa', cursive;
 	font-size: 1vmax;
 	line-height: 1;
 	line-height: 1.9vmax;
@@ -19,7 +21,7 @@ h1 {
 
 li {
 	display: inline-block;
-	color: #3a3a3a;
+	color: #e4e4e4;
 	font-weight: 500;
 	margin-left: 10px;
 }
@@ -45,37 +47,30 @@ hr {
 }
 
 .school-name{
-	font-size: 22px;
-	color: #3a3a3a;
+	color: #e4e4e4;
+	font-weight: 500;
 }
 
-.wrap {
-	width: 90vw;
-	margin:0 auto;
-	position:relative;
-}
 
 .button {
 	color: white;
     background-color: #ff1414;
-    padding: .6em 1em;
+    padding: 10px 16px;
     border-radius: 4px;
 }
 
-.button:hover {
-    background-color:rgb(16, 114, 191);
-}
 
 .button2 {
-	padding: 0 .8em;
-	font-size: .8em;
-	background-color:#ff1414;
+	padding: 4px 16px;
+	font-size: 14px;
+	background-color:#5f5f5f5c;
 	color: white;
 	text-align: center;
 	border-radius: 4px;
 }
 
-.button2:hover{
+
+.button:hover,.button2:hover{
     background-color:rgb(16, 114, 191);
 }
 
@@ -84,7 +79,7 @@ hr {
 /*Секция 1 тут */
 #section1 {
 	height: 100vh;
-	background: url('img/main.jpg');
+	background: url('img/main1.jpg');
 	background-position:center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -97,7 +92,7 @@ header {
 	align-items: center;
 	height: 2em;
 	background-color:rgba(179, 176, 176, 0.3);
-	padding: 0 1em;
+	padding:30px;
 	box-sizing: border-box;
 }
 
@@ -123,12 +118,11 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	overflow: hidden;
-	align-self:center;
 	box-sizing: border-box;
 	padding: 1em;
 	background-color: white;
-	box-shadow:-15px -15px 0px 0px #139096;
+	border-radius: 6px;
+	box-shadow:0px 5px 20px 0px #656565;
 }
 
 .main-text h1 {
@@ -138,7 +132,7 @@ img {
 }
 
 .main-text p {
-	text-align: left;
+	text-align: center;
 	font-weight: 500;
 	margin-bottom: 2em;
 	white-space: pre-wrap;
@@ -156,22 +150,32 @@ img {
 	background-position:center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 650px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	padding: 1em;
-	box-sizing: border-box;
-	border-bottom:6px dashed #009688;
+	padding: 2em;
+	/*box-sizing: border-box;*/
 }
 
 
 .section2 h1 {
 	color: #fff;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 28px;
 }
+
+img {
+	height: 80px;
+}
+
+.prog_title {
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+
+}
+
 
 
 .programms {
@@ -179,96 +183,31 @@ img {
 	padding: 1em;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	overflow: hidden;
 	width: 100%;
 }
 
-.programm-item {
-	box-sizing: border-box;
-    height: 18em;
-    width: 18%;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
-    box-shadow:-9px -9px 0px 0px #139096;
-}
 
-
-.programm-pic{
-	height: 80%;
-	width: 100%;
-}
-
-.pic1 {
-	background: url('img/indiv2.jpg');
-	background-position:center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.pic2 {
-	background: url('img/indiv.jpg');
-	background-position:center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.pic3 {
-	background: url('img/indiv3.jpg');
-	background-position:top;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.pic4 {
-	background: url('img/indiv4.jpg');
-	background-position:center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.pic5 {
-	background: url('img/indiv5.jpg');
-	background-position:center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-
-.programm-wrapp {
-	padding: .6em;
-	padding-top: 0;
-}
-.programm-item h1 {
-	font-size: 1.1em;
-	text-align: center;
-	font-weight: 500;
-	margin: .4em 0 0 0;
-}
-/*скрыл в хтмл ---- надо думать */
-/*.programm-item p{
-	font-size: .8em;
-	line-height: 1;
-}*/
-
-.price-button {
+.prog_item{
+	width: 300px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	margin: 20px;
+
 }
 
-.price {
+.title_info {
+	color: #b1b1b1;
 	font-size: 14px;
 }
 
 
-/*Секция 3 тут */
+/*======== Секция 3 тут ========*/
 
 .section3 {
 	display: flex;
@@ -282,17 +221,26 @@ img {
 	box-sizing: border-box;
 }
 
-.sec3_aboutus{
-	width: 1000px;
-	font-weight: 500;
-}
 
-
-.section3 p {
-	line-height: 1.5;
-	font-size: .9em;
+.about_us_title{
+	width: 1100px;
+	text-align: left;
 	white-space: pre-line;
+	font-size: 18px;
+	font-weight: 700;
+	color: #565656;
+	box-sizing: border-box;
+	padding:80px;
 }
+
+.about_us_title h1 {
+	text-align: center;
+	margin-bottom: 0;
+	color: black;
+}
+
+
+
 
 
 .teachers-main {
@@ -311,36 +259,31 @@ img {
 	border: 1px solid gray;
 	border-radius: 50%;
 	margin: 1em;
-}
-
-.teacher1 {
-	background: url('img/teacher1.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.teacher1 {
+	background-image: url('img/teacher1.jpg');
+	
 
 }
 
 .teacher2 {
-	background: url('img/teacher2.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url('img/teacher2.jpg');
+	
 }
 
 .teacher3 {
-	background: url('img/teacher3.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url('img/teacher3.jpg');
+	
 }
 
 
 .teacher4 {
-	background: url('img/teacher5.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url('img/teacher5.jpg');
+	
 }
 
 .teacher-info {
@@ -348,6 +291,8 @@ img {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
+	height: 400px;
+	width: 260px;
 	margin: 10px;
 	background-color:rgba(202, 202, 202, 0.49);
 	padding: 10px;
@@ -367,10 +312,11 @@ img {
 	font-size: 1em;
 }
 
-.teacher-info p {
-	line-height: .8;
-	font-size: .8em;
-	
+.teacher_title {
+	font-size: 16px;
+	font-weight: 300;
+
+
 }
 
 
@@ -497,15 +443,11 @@ footer {
 	width: 350px;
 	padding: 1em;
 	box-sizing: border-box;
-	box-shadow:3px 5px 20px rgba(173, 173, 173, 0.72),
-	 -6px -6px 0px #00968875;
+	box-shadow:-6px -6px 0px #009688, 6px 6px 0px #009688;
 	margin: 1em;
 }
 
-.reviews-box:hover {
-	box-shadow:-6px -6px 0px #009688,
-	 6px 6px 0px #009688;
-}
+
 
 .review-text {
 	font-size: 14px;
