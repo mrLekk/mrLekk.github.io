@@ -647,15 +647,8 @@ footer {
 	.bottom_a  {
 		font-size: 40px;
 		margin:14px;
+		line-height: 1.5;
 	}
 	
-	.follow_us {
-		display: none;
-	}
-
-	.follow_us2 img{
-		height:40px;
-		margin: 20px;
-	}
 
 }
