@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
 
 
@@ -7,7 +6,6 @@ body {
 	padding: 0;
 	background-color: #fff;
 	color: #3a3a3a;
-	/*font-family: 'Montserrat', sans-serif;*/
 	font-family: 'Comfortaa', cursive;
 	font-size: 1vmax;
 	line-height: 1;
@@ -33,7 +31,7 @@ a {
 
 
 .bottom_a{
-	color: white;
+	color: #b1b1b1;
 	text-decoration: none;
 	font-weight: 500;
 }
@@ -324,7 +322,7 @@ img {
 .section4 {
 	position: relative;
 	display: flex;
-	height: 22em;
+	height: 450px;
 }
 
 
@@ -338,16 +336,17 @@ img {
 	color: white;
 }
 
-.contacts h1 {
-	text-align: center;
-}
+
 .contacts h3 {
 	margin-bottom: 0;
+	font-weight: 400;
 }
 
 .contacts p {
 	text-align: center;
 	margin: 0;
+	color: #b1b1b1;
+	font-weight: 300;
 }
 
 
@@ -387,25 +386,29 @@ footer {
 
 }
 
-.instagram:before {
-	content: url('img/instagram.png');
+.social_icon {
+	color: #b1b1b1;
+}
+
+.social_icon:before {
 	position: absolute;
 	bottom:-5px;
 	left: -40px;
+}
+
+.instagram:before {
+	content: url('img/instagram.png');
+	
 }
 
 .vkontakte:before {
 	content: url('img/vkontakte.png');
-	position: absolute;
-	bottom:-5px;
-	left: -40px;
+	
 }
 
 .telegram:before {
 	content: url('img/telegram.png');
-	position: absolute;
-	bottom:-5px;
-	left: -40px;
+	
 }
 
 
@@ -462,157 +465,35 @@ footer {
 	width: 100%;
 	box-sizing: border-box;
 	padding:60px;
-}
-
-
-
-	
-/*
-	.main-text p{
-		font-size: 2em;
-		font-weight: 400;
-		text-align: center;
-		line-height: 1.3;
 	}
 
-	#section1 {
-		height: 90vh;
-	}
-	
-	.section2 {
-		height: auto;
+	h1 {
+		font-size:35px;
 	}
 
-
-	.section2 h1,.section3 h1 {
-		font-size: 2.5em;
-		line-height: 1;
-		text-align: center;
-	}
-
-	.programm-item {
-		width: 42.5vw;
-		height: 600px;
-	}
-	
-	.programm-item h1 {
-		font-size: 2em;
-		color: black;
-	}
-	
-	.price {
-		font-size: 25px;
-		font-weight: 500;
-		text-align: center;
-	}
-
-	.button2 {
-		font-size: 25px;
-		padding: .8em;
-	}
-
-
-	.section3 .sec3_aboutus {
-		font-size: 1.2em;
-		margin-top: 0;
-		text-align: center;
-	}
-
-	.teacher-info {
-		width: 45vw;
-		height: 450px;
-	}
-
-	.teacher-info h4{
-		font-size: 1.8em;
-	}
-
-	.teacher-info p {
-		font-size: 30px;
-		font-weight: 500;
-	}
-
-	.reviews {
-		padding: 20px;
-		box-sizing: border-box;
-		height: auto;
-	}
-
-	.reviews_main {
-		width: auto;
-	}
-
-	.reviews .we_reviews {
-		font-size: 30px;
-	}
-
-	.reviews-box {
-		width: 95%;
-		height:auto;
-	}
-	
-	.reviews-box h3 {
-		font-size: 2em;
-	}
-
-	.review-text {
-	font-size: 26px;
-	}
-
-	.section4 {
-		height: auto;
-	}
-
-	iframe {
-		display: none;
-	}
-	
-	.contacts{
-		width: 100%;
-		padding: 1em;
-		padding-bottom: 2em;
-
-	}
-
-	.contacts h3 {
-		font-size: 2.5em;
-		font-weight: 500;
-		margin-bottom: 30px;
-	}
-	.footer-wrap {
-		width: 100%;
-	}
-	.footer_menu {
-		display: none;
-	}
-	
-
-	.button {
-		font-size: 1.7em;
-	}
-
-	.wrap {
-		width:100%;
-	}
-	
 	header {
 		height: 120px;
-	}
-
-	.school-name {
-		font-size: 2em;
+		font-size: 30px;
 	}
 	
-	.nav {
-		font-size: 2em;
+	header h1 {
+		font-size: 40px;
 	}
 
 	.main-text {
-		height: 32%;
-		box-shadow:0px -20px 0px 0px #139096;
+		width: 82%;
+		height: auto;
+		padding: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.main-text p {
+		font-size: 25px;
+		font-weight: 300;
 	}
 
-	.contacts p {
-		font-size: 1.2em;
-	}*/
+
 }
