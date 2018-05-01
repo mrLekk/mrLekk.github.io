@@ -60,7 +60,7 @@ hr {
 
 .button2 {
 	padding: 4px 16px;
-	font-size: 14px;
+	font-size: 16px;
 	background-color:#1072bf4a;
 	color: white;
 	text-align: center;
@@ -478,8 +478,9 @@ footer {
 	}
 
 	h1 {
-		font-size:45px;
+		font-size:55px;
 		white-space: pre;
+		line-height: 1.5;
 	}
 
 
@@ -493,7 +494,7 @@ footer {
 	}
 
 	h3 {
-		font-size: 35px;
+		font-size: 32px;
 	}
 
 	.main-text {
@@ -531,18 +532,18 @@ footer {
 		text-align: center;
 		line-height: 1.5;
 		white-space: pre;
-		font-size: 45px;
+		font-size: 55px;
 
 	}
 	
 	.prog_title {
 		font-weight: 400;
-		font-size: 22px;
+		font-size: 24px;
 		margin-bottom: 0;
 	}
 
 	.title_info {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.prog_title_main {
@@ -569,7 +570,7 @@ footer {
 
 
 	.teacher-info {
-		width: 40vw;
+		width: 41vw;
 		min-width: 180px;
 		min-height: 300px;
 	}
@@ -580,18 +581,18 @@ footer {
 	}
 
 	.teacher-info h4 {
-		font-size: 30px;
+		font-size: 34px;
 	}
 
 	.teacher_title {
-		font-size: 20px;
+		font-size: 24px;
 		margin-bottom: 0;
 	}
 	
 	/*---секция 4---*/
 
 	.we_reviews {
-		font-size: 22px;
+		font-size: 28px;
 	}
 
 	.reviews_main {
@@ -603,7 +604,7 @@ footer {
 	}
 
 	.review-text {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	iframe {
