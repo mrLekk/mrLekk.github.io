@@ -483,6 +483,7 @@ footer {
 		font-size:55px;
 		white-space: pre;
 		line-height: 1.5;
+		text-align: center;
 	}
 
 
@@ -639,13 +640,22 @@ footer {
 	}
 
 	footer p {
-		font-size: 25px;
+		font-size:35px;
+		text-align: 
 	}
 
 	.bottom_a  {
-		font-size: 25px;
-		margin-bottom: 10px;
+		font-size: 40px;
+		margin:14px;
 	}
 	
+	.follow_us {
+		display: none;
+	}
+
+	.follow_us2 img{
+		height:40px;
+		margin: 20px;
+	}
 
 }
