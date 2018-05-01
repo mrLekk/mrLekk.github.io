@@ -489,11 +489,18 @@ footer {
 		justify-content: center;
 		align-items: center;
 	}
+
+	.main-text h1 {
+		line-height: 1.5;
+	}
 	
 	.main-text p {
-		font-size: 25px;
+		font-size: 30px;
 		font-weight: 300;
 	}
-
+	
+	.button {
+		font-size: 25px;
+	}
 
 }
