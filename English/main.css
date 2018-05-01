@@ -491,7 +491,8 @@ footer {
 	}
 
 	.main-text h1 {
-		line-height: 1.5;
+		line-height: 2;
+		margin-bottom: 0;
 	}
 	
 	.main-text p {
