@@ -490,8 +490,8 @@ footer {
 		align-items: center;
 	}
 
-	.main-text h1 {
-		line-height: 2;
+	.main-text h1, {
+		line-height: 1.5;
 		margin-bottom: 0;
 	}
 	
@@ -502,6 +502,16 @@ footer {
 	
 	.button {
 		font-size: 25px;
+	}
+	
+	/*---секция 2---*/
+	.section2 {
+		padding: 16px;
+	}
+
+	.section2 h1 {
+		text-align: center;
+		line-height: 1.5;
 	}
 
 }
