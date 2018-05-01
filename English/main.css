@@ -591,8 +591,13 @@ footer {
 	
 	/*---секция 4---*/
 
+
+	.section4 {
+		height: 700px;
+	}
+
 	.we_reviews {
-		font-size: 28px;
+		font-size: 38px;
 	}
 
 	.reviews_main {
@@ -621,12 +626,21 @@ footer {
 
 
 	.contacts h3 {
-		font-size: 36px;
+		font-size: 40px;
 	}
 
 	.contacts p {
-		font-size: 28px;
+		font-size: 35px;
 		margin-top: 10px;
 		line-height: 1.5;
 	}
+
+	footer p {
+		font-size: 25px;
+	}
+
+	.bottom_a {
+		font-size: 25px;
+	}
+
 }
