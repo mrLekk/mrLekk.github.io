@@ -545,7 +545,7 @@ footer {
 		line-height: 1.5;
 		color: #b1b1b1;
 		text-align: center;
-		font-size: 26px;
+		font-size: 18px;
 
 	}
 
@@ -572,6 +572,15 @@ footer {
 	.teacher-item {
 		min-height:100px;
 		min-width: 100px; 
+	}
+
+	.teacher-info h4 {
+		font-size: 30px;
+	}
+
+	.teacher_title {
+		font-size: 20px;
+		margin-bottom: 0;
 	}
 
 }
