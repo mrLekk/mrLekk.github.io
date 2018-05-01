@@ -21,6 +21,8 @@ li {
 	color: #e4e4e4;
 	font-weight: 500;
 	margin-left: 10px;
+	list-style: circle;
+
 }
 
 a {
@@ -622,6 +624,7 @@ footer {
 
 	.footer-wrap {
 		width: 100%;
+		flex-direction: column;
 	}
 
 
@@ -639,8 +642,10 @@ footer {
 		font-size: 25px;
 	}
 
-	.bottom_a {
+	.bottom_a  {
 		font-size: 25px;
+		margin-bottom: 10px;
 	}
+	
 
 }
