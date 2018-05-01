@@ -454,7 +454,8 @@ footer {
 	width: 350px;
 	padding: 1em;
 	box-sizing: border-box;
-	box-shadow:-6px -6px 0px #009688, 6px 6px 0px #009688;
+	border-radius: 6px;
+    box-shadow: 0px 5px 14px 0px #c5c5c5;
 	margin: 1em;
 }
 
@@ -489,6 +490,10 @@ footer {
 	
 	header h1 {
 		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 35px;
 	}
 
 	.main-text {
@@ -582,5 +587,34 @@ footer {
 		font-size: 20px;
 		margin-bottom: 0;
 	}
+	
+	/*---секция 4---*/
 
+	.we_reviews {
+		font-size: 22px;
+	}
+
+	.reviews_main {
+		width: 100%;
+	}
+
+	.reviews-box {
+		width: 90%;
+	}
+
+	.review-text {
+		font-size: 20px;
+	}
+
+	iframe {
+		display: none;
+	}
+
+	.contacts {
+		width: 100%;
+	}
+
+	.footer-wrap {
+		width: 100%;
+	}
 }
