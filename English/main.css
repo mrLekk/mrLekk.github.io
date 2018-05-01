@@ -517,7 +517,11 @@ footer {
 	
 	.prog_title {
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 22px;
+	}
+
+	.title_info {
+		font-size: 18px;
 	}
 
 	.prog_title_main {
