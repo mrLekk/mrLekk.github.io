@@ -167,7 +167,7 @@ img {
 	height: 80px;
 }
 
-.prog_title {
+.prog_title_main,.prog_title {
 	color: #fff;
 	text-align: center;
 	font-weight: 700;
@@ -471,6 +471,7 @@ footer {
 		font-size:35px;
 	}
 
+
 	header {
 		height: 120px;
 		font-size: 30px;
@@ -516,6 +517,21 @@ footer {
 	
 	.prog_title {
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 14px;
+	}
+
+	.prog_title_main {
+		font-weight: 300;
+		line-height: 1.5;
+		color: #b1b1b1;
+
+	}
+
+	.prog_item {
+		width: 400px;
+	}
+
+	img {
+		height:140px;
 	}
 }
