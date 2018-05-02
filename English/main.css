@@ -600,7 +600,8 @@ footer {
 	}
 
 	.we_reviews {
-		font-size: 38px;
+		font-size: 40px;
+		line-height: 1.5;
 	}
 
 	.reviews_main {
