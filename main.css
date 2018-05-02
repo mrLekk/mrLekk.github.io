@@ -13,6 +13,8 @@ body {
 }
 
 
+
+
 .wrap {
 	width: 76vw;
 	margin:0 auto;
@@ -448,6 +450,13 @@ blockquote:hover {
 
 .fitness {
 	background: url('img/fitness.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.english{
+	background: url('img/english.jpg');
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
