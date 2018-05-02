@@ -568,6 +568,8 @@ footer {
 
 	.about_us_text {
 		font-weight: 300;
+		font-size: 36px;
+		line-height: 1.5;
 	}
 
 
@@ -603,7 +605,7 @@ footer {
 		font-size: 36px;
 		line-height: 1.5;
 		font-weight: 300;
-		padding: 60px;
+		padding:0 60px 60px;
 		box-sizing: border-box;
 	}
 
