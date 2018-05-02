@@ -603,6 +603,8 @@ footer {
 		font-size: 36px;
 		line-height: 1.5;
 		font-weight: 300;
+		padding: 60px;
+		box-sizing: border-box;
 	}
 
 	.reviews_main {
