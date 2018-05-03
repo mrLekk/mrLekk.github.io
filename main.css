@@ -238,7 +238,7 @@ blockquote {
 background: linear-gradient(135deg,rgba(242, 183, 253, 0.4196078431372549) 40%, rgba(136, 148, 239, 0.5803921568627451));
 text-align: center;
 position: relative;
-color: #49152C;
+color: gray;
 padding: 30px 50px;
 margin: 0;
 border-radius: 4px;
@@ -317,7 +317,7 @@ blockquote:hover {
 }
 
 #services .services-blocks p {
-	color: #333;
+	color: gray;
 	text-align: center;
 }
 
@@ -542,9 +542,8 @@ blockquote:hover {
 
 	
 	blockquote {
-		font-size: 2.5em;
-		line-height: 1.2;
-
+		font-size: 2.2em;
+		line-height: 1.5;
 	}
 
 	blockquote p:before {
