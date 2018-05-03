@@ -6,14 +6,17 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1vmax;
 	line-height: 1.9vmax;
-	color:#fff;
+	color:#000;
 	margin: 0;
 	padding: 0;
 
 }
 
 h1{
-	font-weight: 500;
+	font-weight: 300;
+    font-size: 45px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 h3 {
@@ -28,17 +31,17 @@ h3 {
 	position:relative;
 }
 
-.h1-main {
+/*.h1-main {
 	color: #333;
 	text-align: center;
 	font-weight: 600;
 	font-size: 2em;
 	line-height: 1.2;
-}
+}*/
 
 .button {
 	border:none;
-	background-color: rgba(0, 142, 255, 0.78);
+	background-color:rgb(57, 157, 232);
 	color: white;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -62,15 +65,18 @@ h3 {
 }
 
 .button-serv {
-	width: 55%;
-	height: 2.3em;
-	border:none;
+	/*width: 55%;*/
+	/*height: 2.3em;*/
+	/*border:none;*/
 	background-color: rgba(0, 142, 255, 0.78);
 	color: white;
 	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 1em;
-	border-radius:4px;
+	font-weight: 400;
+	font-size: 14px;
+	padding:0px 20px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	/*border-radius:1px;*/
 	cursor: pointer;
 	margin: 0;
 	display: flex;
@@ -97,12 +103,13 @@ h3 {
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	background-image: url(img/wall1.png);
-	background-color: #313131d1;
-	background-blend-mode: overlay;
+	background-image: url(img/wall.jpg);
+	background-color: #f1f1f1;
+	/*background-blend-mode: overlay;*/
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center ;
+	background-attachment: fixed;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 	display: -webkit-box;
@@ -130,7 +137,7 @@ h3 {
 }
 
 .top-header a {
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 }
 
@@ -155,7 +162,7 @@ h3 {
 	right: 50px;
 	display: inline-block;
 	margin: 0;
-	padding:0;
+	padding:5px;
 	z-index: 1;
 	position: fixed;
 	font-size: 14px; 
@@ -177,83 +184,9 @@ nav a {
 }
 
 .nav-progress {
-	border-bottom:2px solid rgba(19, 133, 218, 0.58);
+	    border-bottom: 2px solid rgb(199, 199, 199);
 }
 
-.boxes {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 20px;
-}
-
-.boxes a {
-	text-decoration: none;
-}
-
-
-.project {
-	height: 200px;
-	width: 260px;
-	margin: 1.5em;
-	border-radius: .5em;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;	
-	transition-property: transform;
-	transition-timing-function: ease;
-	transition-duration: .5s;
-}
-
-
-.project:hover {
-	transform: scale(1.1);
-
-}
-
-.project p{
-	text-decoration: none;
-	color: #fff;
-}
-
-
-.git {
-	/*Скрыто! Пока не перейду на хостинг*/
-	display: none;
-	background-color: #181717;
-	background-image: url('img/github.svg');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-size: 50px;
-}
-
-.inst {
-	background-color: #e4405f;
-	background-image: url('img/instagram-logo.svg');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-size: 50px;
-}
-
-.vk {
-	background-color:#366dbf;
-	background-image: url('img/vk.svg');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-size: 50px;
-}
-
-.telegram {
-	background-color:#0088cc;
-	background-image: url('img/telegram-logo.svg');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-size: 50px;
-}
 
 .bottom-header {
 	height: 10vh;
@@ -268,9 +201,9 @@ nav a {
 
 .bottom-header h1 {
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 400;
 	text-align: center;
-	font-size: .8em;
+	font-size: 13px;
 
 }
 
@@ -282,6 +215,7 @@ nav a {
 	position: relative;
 	padding-top: 7vh;
 	padding-bottom: 8vh;
+
 }
 
 .about-me-text  {
@@ -346,6 +280,7 @@ blockquote:hover {
 	position: relative;
 	padding-top: 2vh;
 	padding-bottom: 5vh;
+
 }
 
 /*#services h1 {
@@ -366,28 +301,23 @@ blockquote:hover {
 
 .services-blocks {
 	height: 20em;
-	width: 32em;
-	margin: 1.5em;
-	border: 1px solid #d0d0d0;
-	border-radius: .3em;
-	box-shadow:2px 3px 11px 0px rgba(208, 208, 208, 0.521568);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+    width: 32em;
+    margin: 1.5em;
+    /* border: 1px solid #d0d0d0; */
+    border-radius: .3em;
+    box-shadow: 0px 0px 12px 0px rgba(208, 208, 208, 0.521568);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
-.services-blocks:hover {
-	box-shadow:5px 5px 20px 0px #d0d0d0; 
-}
-
-
 
 #services .services-blocks h1 {
 	margin-top: 1.2em;
 	font-size: 1.4em;
 	color: #333;
-	font-weight: 500;
+	font-weight: 400;
 	text-align: center;
 }
 
@@ -471,7 +401,7 @@ blockquote:hover {
 
 
 .contacts {
-	background-color: #fff;
+	background-color: #f1f1f1;
 	width: 100%;
 	height: 100%;
 	position: relative;
@@ -480,6 +410,13 @@ blockquote:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	background-image: url(img/wall.jpg);
+	background-color: #f1f1f1;
+	/*background-blend-mode: overlay;*/
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-attachment: fixed;
 }
 
 
@@ -494,11 +431,21 @@ blockquote:hover {
 
 .contacts-icons {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
+
+.social-img {
+	margin: 0 auto;
+}
+
+.social-img img {
+	height: 45px;
+	margin: 10px 20px;
+}
+
 
 .contacts-icons a {
 	text-decoration:none;
@@ -514,13 +461,15 @@ blockquote:hover {
 .contacts h2 {
 	text-align: center;
 	color: #6d6d6d;
-	font-weight: 400;
+	font-weight: 300;
+	line-height: 1.2;
 }
 
 .contacts-style {
 	color: black;
 	text-transform: uppercase;
-	line-height: 1.2;
+	line-height: 1.5;
+	font-weight: 300;
 }
 
 .red-line:hover{
