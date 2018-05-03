@@ -65,9 +65,6 @@ h3 {
 }
 
 .button-serv {
-	/*width: 55%;*/
-	/*height: 2.3em;*/
-	/*border:none;*/
 	background-color: rgba(0, 142, 255, 0.78);
 	color: white;
 	text-transform: uppercase;
@@ -76,7 +73,6 @@ h3 {
 	padding:0px 20px;
 	border-top-right-radius: 4px;
 	border-top-left-radius: 4px;
-	/*border-radius:1px;*/
 	cursor: pointer;
 	margin: 0;
 	display: flex;
@@ -105,7 +101,6 @@ h3 {
 	position: relative;
 	background-image: url(img/wall.jpg);
 	background-color: #f1f1f1;
-	/*background-blend-mode: overlay;*/
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center ;
@@ -412,7 +407,6 @@ blockquote:hover {
 	justify-content: flex-start;
 	background-image: url(img/wall.jpg);
 	background-color: #f1f1f1;
-	/*background-blend-mode: overlay;*/
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center ;
@@ -420,18 +414,11 @@ blockquote:hover {
 }
 
 
-/*.contacts h1 {
-	color: #333;
-	text-align: center;
-	font-weight: 600;
-	font-size: 45px;
-	line-height: 1.2;
-	margin-top: 0;
-}*/
+
 
 .contacts-icons {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -442,8 +429,8 @@ blockquote:hover {
 }
 
 .social-img img {
-	height: 45px;
-	margin: 10px 20px;
+	height: 34px;
+	margin: 10px 10px;
 }
 
 
@@ -501,9 +488,12 @@ blockquote:hover {
 
 @media screen and (max-width: 1080px) {
 
-	.h1-main {
-		font-size: 4em;
+
+	.header {
+		background-image: none;
 	}
+
+	
 
 	.top-header li {
 		justify-content: space-between;
@@ -518,18 +508,22 @@ blockquote:hover {
 	.middle-header h1 {
 		line-height: 2;
 		font-size: 3em;
-		/*white-space: pre-line;*/
 	}
 
-	.middle-header p {
+	.middle-header p,.about-me-text  {
 		line-height: 1.5;
-		font-size: 2.1em;
+		font-size: 2.2em;
 		text-align: center;
+		color: gray;
+	}
+
+
+	.about-me-text{
+		text-align: left;
 	}
 
 	.button {
-		height: 5em;
-		width: 50%;
+		padding: 10px 20px;
 		align-self: center;
 		font-size: 1.5em;
 
@@ -544,10 +538,7 @@ blockquote:hover {
 	}
 	
 	
-	.about-me-text {
-		font-size: 2.6em;
-		line-height: 1.2;
-	}
+
 	
 	blockquote {
 		font-size: 2.5em;
