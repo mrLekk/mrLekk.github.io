@@ -12,7 +12,14 @@ body {
 
 }
 
+h1{
+	font-weight: 500;
+}
 
+h3 {
+	text-align: center;
+	font-weight: 400;
+}
 
 
 .wrap {
@@ -30,15 +37,14 @@ body {
 }
 
 .button {
-	width: 350px;
-	height: 40px;
 	border:none;
 	background-color: rgba(0, 142, 255, 0.78);
 	color: white;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 16px;
 	border-radius:4px;
+	padding: 6px 20px;
 	cursor: pointer;
 	-ms-flex-item-align: center;
 	    align-self: center;
@@ -134,15 +140,15 @@ body {
 }
 
 .middle-header {
-	transform: translate(-50% -50%);
-	padding: 10px 20px;
-}
-
-.middle-header  {
 	text-align: center;
+	padding: 10px 20px;
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
-
 
 .h-translate {
 	bottom:1em;
@@ -171,7 +177,7 @@ nav a {
 }
 
 .nav-progress {
-	border-bottom: 1px solid orange;
+	border-bottom:2px solid rgba(19, 133, 218, 0.58);
 }
 
 .boxes {
