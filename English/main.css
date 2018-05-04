@@ -35,6 +35,7 @@ a {
 	color: #b1b1b1;
 	text-decoration: none;
 	font-weight: 500;
+	margin: 0 10px;
 }
 
 .nav a:hover {
@@ -81,7 +82,7 @@ hr {
 	height:90vh;
 	color: black;
 	display: flex;
-	background: url('img/bb7.svg')no-repeat 90% center/500px;
+	background: url('img/bigben.svg')no-repeat 90% center/500px;
 	background-color: #fff;
 }
 
@@ -345,7 +346,7 @@ img {
 .section4 {
 	position: relative;
 	display: flex;
-	height: 450px;
+	height: 500px;
 
 }
 
@@ -378,13 +379,14 @@ img {
 /*---------- Футер тут ---------*/
 
 .footer-wrap {
-	width: 80%;
+	width: 86%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	box-sizing: border-box;
 	padding: 1em;
 }
+
 
 footer {
 	color: white;
@@ -398,42 +400,10 @@ footer {
 
 .footer_menu {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
 }
 
 
-.instagram,.vkontakte,.telegram {
-	position: relative;
-	font-weight:500;
 
-}
-
-.social_icon {
-	color: #b1b1b1;
-}
-
-.social_icon:before {
-	position: absolute;
-	bottom:-5px;
-	left: -40px;
-}
-
-.instagram:before {
-	content: url('img/instagram.png');
-	
-}
-
-.vkontakte:before {
-	content: url('img/vkontakte.png');
-	
-}
-
-.telegram:before {
-	content: url('img/telegram.png');
-	
-}
 
 
 .reviews {
@@ -473,6 +443,9 @@ footer {
     box-shadow: 0px 5px 14px 0px #c5c5c5;
 	margin: 1em;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 }
 
 .reviews-box::before {
@@ -494,15 +467,26 @@ footer {
 	font-weight: 500;
 }
 
+.social-img img {
+	height: 25px;
+	margin: 10px 10px;
+}
+
 /*-----Тут под мобильные -----*/
 
 @media screen and (max-width: 1080px) {
 
 
+	#section1 {
+		height: 95vh;
+		background-position:90% bottom;
+	}
+
+
 	.about_us_title {
-	width: 100%;
-	box-sizing: border-box;
-	padding:60px;
+		width: 100%;
+		box-sizing: border-box;
+		padding:60px;
 	}
 
 	h1 {
@@ -529,6 +513,7 @@ footer {
 	.main-text {
 		width: 82%;
 		height: auto;
+		margin: 0 auto;
 		padding: 40px;
 		display: flex;
 		flex-direction: column;
