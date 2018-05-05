@@ -400,6 +400,7 @@ footer {
 
 .footer_menu {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 
@@ -478,7 +479,7 @@ footer {
 
 
 	#section1 {
-		height: 95vh;
+		height: 90vh;
 		background-position:90% bottom;
 	}
 
@@ -522,7 +523,7 @@ footer {
 	}
 
 	.main-text h1 {
-		font-size: 35px;
+		font-size: 50px;
 		line-height: 1.5;
 		margin-bottom: 0;
 	}
@@ -629,7 +630,7 @@ footer {
 	}
 
 	.review-text {
-		font-size: 12px;
+		font-size: 18px;
 	}
 
 	iframe {
