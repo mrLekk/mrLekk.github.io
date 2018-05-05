@@ -353,7 +353,7 @@ img {
 		transform: rotate(0deg);
 	}
 	50%{
-		transform: rotate(160deg);
+		transform: rotate(180deg);
 	}
 	100%{
 		transform: rotate(360deg);
@@ -686,7 +686,7 @@ footer {
 	}
 
 	.review-text {
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 1.5;
 		font-weight: 300;
 	}
