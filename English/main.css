@@ -401,6 +401,7 @@ footer {
 .footer_menu {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 
@@ -630,7 +631,8 @@ footer {
 	}
 
 	.review-text {
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.2;
 	}
 
 	iframe {
