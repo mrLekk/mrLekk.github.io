@@ -319,7 +319,61 @@ img {
 	box-sizing: border-box;
 	border-radius: 6px;
 	flex-grow: 2;
+	position: relative;
 }
+
+
+
+.teacher_hover{
+	/*background:url('img/plus1.svg')no-repeat center/80px;*/
+	padding: 10px;
+	visibility: hidden;
+	background-color:#607d8b;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 6px;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.teacher_hover img {
+	animation: plus 3s linear infinite;
+}
+
+@keyframes plus {
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(160deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+
+ .teacher-info:hover .teacher_hover{
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
