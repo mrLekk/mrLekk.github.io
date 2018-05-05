@@ -481,7 +481,7 @@ footer {
 
 	#section1 {
 		height: 90vh;
-		background-position:90% bottom;
+		background-position:90% 110%;
 	}
 
 
@@ -565,7 +565,7 @@ footer {
 	.prog_title_main {
 		font-weight: 300;
 		line-height: 1.5;
-		color: #b1b1b1;
+		color: #dedede;
 		text-align: center;
 		font-size: 18px;
 
