@@ -344,6 +344,12 @@ img {
 	
 }
 
+.teacher_hover a {
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
 .teacher_hover img {
 	animation: plus 3s linear infinite;
 }
