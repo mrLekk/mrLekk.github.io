@@ -2,47 +2,6 @@
 
 
 
-
-
-
-
-/*body {
-	margin: 0;
-	padding: 0;
-	color:black;
-	margin: 0 auto;
-	font-family: 'Comfortaa', cursive;
-}
-
-.teacher_cover {
-	height: 360px;
-	margin: 0 auto;
-	background: url('img/tom3.jpg')no-repeat center/cover;
-}
-
-.wrap {
-	width: 60%;
-	margin: 0 auto;
-}
-
-ul{
-	display:flex;
-	align-items: center;
-	justify-content: space-between;
-	border-bottom: 1px solid lightgray;
-	padding:0;
-}
-
-li{
-	list-style: none;
-	height: 100%;
-	padding: 10px 0;
-
-}
-
-*/
-
-
 body {
 	height: 100vh;
 	margin: 0;
@@ -78,8 +37,8 @@ body {
 	width: 300px;
 	height: 350px;
 	position: absolute;
-	top: -25px;
-	left: 40px;
+	top: -18px;
+	left: 30px;
 	background-color: white;
 	box-shadow: 0px 0px 20px 0px #d0d0d0;
 	background: url('img/tom.jpg')no-repeat center/cover;
@@ -95,6 +54,9 @@ body {
 	box-sizing: border-box;
 }
 
+
+
+
 h1 {
 	color:#3e3c3c;
 	text-transform: uppercase;
@@ -104,15 +66,47 @@ h1 {
 a {
 	padding: 10px;
 	border: 1px solid gray;
-	border-radius: 2px;
+	border-radius: 4px;
+	background-color: #3f51b5;
+	color: white;
+	text-decoration: none;
 }
 
 p{
 	color:#191919;
 	line-height: 1.5;
+	text-align: justify;
 }
 
 .speech{
 	padding: 16px;
 	box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+	.main {
+		width: 90%;
+	}
+	.photo_item {
+		width: 400px;
+	}
+
+	.info {
+		width: 500px;
+	}
+
+	h1 {
+		font-size: 45px;
+		line-height: 1.5;
+	}
+
+	h2 {
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	p{
+		font-size: 20px;
+	}
 }
