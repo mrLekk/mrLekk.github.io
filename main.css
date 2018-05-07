@@ -12,6 +12,7 @@ body {
 
 }
 
+
 h1{
 	font-weight: 300;
     font-size: 45px;
@@ -225,15 +226,6 @@ nav a {
 	box-shadow: 5px 5px 20px 0px #d0d0d0;
 }
 
-/*.about-me h1 {
-	color: #333;
-	text-align: center;
-	font-weight: 600;
-	font-size: 45px;
-	line-height: 1.2;
-}*/
-
-
 blockquote {
 background: linear-gradient(135deg,rgba(242, 183, 253, 0.4196078431372549) 40%, rgba(136, 148, 239, 0.5803921568627451));
 text-align: center;
@@ -278,15 +270,6 @@ blockquote:hover {
 
 }
 
-/*#services h1 {
-	color: #333;
-    text-align: center;
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 1.2em;
-    line-height: 1.2;
-}
-*/
 .service-main {
 	display: flex;
 	flex-wrap: wrap;
@@ -298,7 +281,6 @@ blockquote:hover {
 	height: 20em;
     width: 32em;
     margin: 1.5em;
-    /* border: 1px solid #d0d0d0; */
     border-radius: .3em;
     box-shadow: 0px 0px 12px 0px rgba(208, 208, 208, 0.521568);
     display: flex;
@@ -335,26 +317,16 @@ blockquote:hover {
 }
 
 
-
-/*#portfolio h1 {
-	color: #333;
-	text-align: center;
-	font-weight: 600;
-	font-size: 45px;
-	line-height: 1.2;
-	margin-top: 0;
-}
-*/
-
-
-
 .portfolio-projects {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
+}
 
+.portfolio-projects a {
+	text-decoration: none;
 }
 
 
@@ -369,28 +341,41 @@ blockquote:hover {
 	transition-property: transform;
 	transition-timing-function: ease;
 	transition-duration: .5s;
-	box-shadow: 5px 5px 20px 0px #d0d0d0;
-}
-
-
-.portfolio-proj:hover {
-	transform: scale(1.1);
-
-}
-
-
-.fitness {
-	background: url('img/fitness.png');
+	box-shadow: 0px 0px 20px 0px #d0d0d0;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.fitness {
+	background-image: url('img/fitness.jpg');
 }
 
 .english{
-	background: url('img/english.jpg');
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url('img/english.jpg');	
+}
+
+
+
+ .hidden_proj{
+	visibility: hidden;
+	background-color:#f3f3f3;
+	width: 100%;
+	height: 100%;
+	border-radius: .5em;
+	padding:20px;
+	text-align: center;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:black;
+	text-decoration: none;
+}
+
+.portfolio-proj:hover .hidden_proj{
+	visibility: visible;
 }
 
 
