@@ -402,37 +402,6 @@ img {
 
 
 
-/* ------- секция 4 тут------ */
-.section4 {
-	position: relative;
-	display: flex;
-	height: 500px;
-
-}
-
-
-.contacts {	
-	width: 50%;	
-	background-color:#22303a;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: white;
-}
-
-
-.contacts h3 {
-	margin-bottom: 0;
-	font-weight: 400;
-}
-
-.contacts p {
-	text-align: center;
-	margin: 0;
-	color: #b1b1b1;
-	font-weight: 300;
-}
 
 
 
@@ -463,7 +432,6 @@ footer {
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
 
 
 
@@ -529,9 +497,9 @@ footer {
 	font-weight: 500;
 }
 
-.social-img img {
-	height: 25px;
-	margin: 10px 10px;
+.contacts {
+	color:#b1b1b1;
+	font-size: 16px;
 }
 
 /*-----Тут под мобильные -----*/
@@ -703,6 +671,7 @@ footer {
 
 	.contacts {
 		width: 100%;
+		text-align: center;
 	}
 
 	.footer-wrap {
