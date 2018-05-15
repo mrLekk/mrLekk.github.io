@@ -12,6 +12,30 @@ body {
 
 }
 
+.menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px;
+}
+.phonenumber a{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+a {
+	font-weight: 500;
+	color: black;
+}
+
+ a:hover {
+	color: blue;
+}
+
 
 h1{
 	font-weight: 300;
@@ -32,13 +56,6 @@ h3 {
 	position:relative;
 }
 
-/*.h1-main {
-	color: #333;
-	text-align: center;
-	font-weight: 600;
-	font-size: 2em;
-	line-height: 1.2;
-}*/
 
 .button {
 	border:none;
