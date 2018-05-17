@@ -12,6 +12,7 @@ body {
 
 }
 
+
 .menu {
 	list-style: none;
 	display: flex;
@@ -407,12 +408,6 @@ blockquote:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-image: url(img/wall.jpg);
-	background-color: #f1f1f1;
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center ;
-	background-attachment: fixed;
 }
 
 
@@ -450,7 +445,7 @@ blockquote:hover {
 .contacts h2 {
 	text-align: center;
 	color: #6d6d6d;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.2;
 }
 

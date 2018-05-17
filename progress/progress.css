@@ -8,12 +8,8 @@ body {
 	margin: 0;
 	padding: 0;
 	color:black;
-	background:linear-gradient(to top, #005aa7, #f1f0e7);
-	background: url('textures/pix.jpg');
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center; ;
-	background-attachment: fixed;
+	background-color: #9ab5e1;
+	background-image: linear-gradient(to top left, #b3c9ec 0%, #ffd4f3 74%);
 }
 
 a {
@@ -41,6 +37,7 @@ p {
 
 
 .main {
+	min-height: 100vh;
 	width: 50vw;
 	margin:0 auto;
 	position:relative;
