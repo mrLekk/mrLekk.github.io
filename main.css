@@ -485,11 +485,20 @@ blockquote:hover {
 
 @media screen and (max-width: 1080px) {
 
+	.phonenumber {
+		display: none;
+	}
+	.social {
+		display: none;
+	}
+	.menu {
+		justify-content: center;
+	}
+
 
 	.header {
 		background-image: none;
 	}
-
 	
 
 	.top-header li {
