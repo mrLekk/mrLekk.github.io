@@ -9,6 +9,7 @@ body {
 	color:#000;
 	margin: 0;
 	padding: 0;
+	position: relative;
 
 }
 
@@ -18,10 +19,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	font-size: 20px;
+	font-size: 19px;
 }
-.phonenumber a{
-	font-size: 14px;
+.phonenumber p{
+	font-size: 19px;
 	margin: 0;
 	padding: 0;
 }
@@ -108,11 +109,23 @@ h3 {
 
 .button-serv:hover {
 	background-color: #008eff;
+	color: #fff;
 }
 
 .button:hover {
 	background-color: #008eff;
+	color: #fff;
 }
+
+
+.button-serv:active {
+	background-color:darkblue;
+}
+.button:active {
+	background:darkblue;
+}
+
+
 
 .header {
 	width: 100%;
@@ -171,22 +184,26 @@ h3 {
 	align-items: center;
 }
 
-.h-translate {
-	bottom:1em;
-	right: 50px;
-	display: inline-block;
-	margin: 0;
-	padding:5px;
-	z-index: 1;
+/*----Боковая кнопка*/
+/*.h-translate {
+	bottom:500px;
+	left: 30px;
+	z-index: 10;
 	position: fixed;
 	font-size: 14px; 
 	color: gray;
+	transform: rotate(90deg);
+	display: flex;
 }
 
-.h-translate:hover {
-	color:  #008effc7;
-}
+.h-translate a {
+	margin-left: 20px;
+	text-decoration: none;
+	display: inline-block;
+	height: 2px;
+}*/
 
+/*Боковая кнопка ----*/
 
 
 
@@ -233,6 +250,7 @@ nav a {
 }
 
 .about-me-text  {
+	font-size: 16px;
 	color: #333;
 	padding: 30px 50px;
 	border: 1px solid rgba(181, 170, 170, 0.3);
@@ -255,7 +273,7 @@ border-radius: 4px;
 }
 
 blockquote p {
-font-size: 1em;
+font-size: 16px;
 margin-top: 30px;
 }
 
@@ -377,7 +395,7 @@ blockquote:hover {
 
  .hidden_proj{
 	visibility: hidden;
-	background-color:#f3f3f3;
+	background-color:#bac3f9;
 	width: 100%;
 	height: 100%;
 	border-radius: .5em;
@@ -408,9 +426,13 @@ blockquote:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	text-align: center;
 }
 
-
+.title_footer {
+	margin:0 auto;
+	max-width: 60%;
+}
 
 
 .contacts-icons {
@@ -421,39 +443,30 @@ blockquote:hover {
 	flex-wrap: wrap;
 }
 
-.social-img {
+.social-footer {
 	margin: 0 auto;
 }
-
-.social-img img {
-	height: 34px;
-	margin: 10px 10px;
+.social-footer a {
+	margin-left: 10px;
 }
-
 
 .contacts-icons a {
 	text-decoration:none;
 	margin: 0 10px;
+
 }
 
 .contacts-icons a:hover {
-	text-decoration:underline;
-	text-decoration-color: #1459c16b;
+	text-decoration: underline;
+	text-decoration-color: gray;
 }
 
-
-.contacts h2 {
-	text-align: center;
-	color: #6d6d6d;
-	font-weight: 400;
-	line-height: 1.2;
-}
 
 .contacts-style {
 	color: black;
 	text-transform: uppercase;
-	line-height: 1.5;
-	font-weight: 300;
+	line-height: 1.2;
+	font-weight: 500;
 }
 
 .red-line:hover{
